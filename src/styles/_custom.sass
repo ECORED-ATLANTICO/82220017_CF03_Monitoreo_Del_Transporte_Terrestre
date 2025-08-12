@@ -1,32 +1,202 @@
 .banner-principal-decorativo
   &-1
+    top: 23%
+    left: 0%
+    width: 65px
+    position: absolute
     animation: float1 3.5s ease-in-out infinite alternate
-    position: absolute
-    top: 20%
-    right: 10%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    top: 80%
+    right: 25%
+    width: 65px
     position: absolute
-    top: 51%
-    right: 30%
+    animation: float1 2.8s ease-in-out infinite alternate
 
+@media (min-width: 1025px)
+  .banner-principal-decorativo
+    &-1
+      top: 23%
+      left: 0%
+      width: 85px
+    &-2
+      top: 80%
+      right: 25%
+      width: 85px
+      
 @keyframes float1
   0%
     transform: translateY(20px)
   100%
     transform: translateY(0px)
-  
+    
 .banner-principal .tarjeta
-  background-position: left 50% !important
+  background-image: url('../assets/curso/portada/fondo-banner-principal-sm.png') !important
+@media (min-width: 426px)
+  .banner-principal .tarjeta
+    background-image: url('../assets/curso/portada/fondo-banner-principal-xs.png') !important
+    padding-right: 130px
+@media (min-width: 769px)
+  .banner-principal .tarjeta
+    padding-right: 0
+    overflow: hidden
 
-.banner-principal__row .banner-principal__img
-  width: 400px !important  
+  .banner-principal__row 
+  .banner-principal__img
+    width: 400px
+    padding-bottom: 0 !important
+    padding-top: 0 !important
+    
 
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important
+@media (min-width: 1025px)
+  .banner-principal__row .banner-principal__img
+    width: 500px
+    padding-bottom: 0 !important
+    padding-top: 0 !important
 
+.titulo-principal__numero
+  min-width: 45px
+  height: 45px
+  margin-right: 15px
+  position: relative
+  background-color: $color-acento-contenido !important
+
+.banner-interno__fondo 
+  background-image: url('../assets/curso/portada/banner_interno.png') !important
+
+  .banner-principal .tarjeta
+  background-position: left 50% !important 
+
+.titulo-principal.color-acento-contenido
+  color: $color-sistema-texto !important
+
+.titulo-principal__numero span
+  color: $color-sistema-texto !important
 .banner-interno__titulo__icono i
   color: $color-primario
 
 figcaption
   font-weight: normal
+
+.banner-interno__titulo h2
+  color: $color-sistema-texto !important
+.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
+  color: $color-sistema-texto
+
+
+// Fondos 
+.bg_img
+  &_1
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: -45px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/introduccion/img_2.png') !important
+      background-repeat: no-repeatbg_img
+  &_2
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: -230px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/temas/tema_1/img_14.png') !important
+      background-repeat: no-repeat
+  &_3
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: -210px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/temas/tema_2/img_11.png') !important
+      background-repeat: no-repeat
+  &_4
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: -170px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url('../assets/curso/temas/tema_2/img_12.png') !important
+      background-repeat: no-repeat
+  &_5
+    position: relative
+    h1, h2, h3, h4, h5, h6, p, separador, figure, .tarjeta, .titulo-segundo, .titulo-sexto, .div, .row, .tabla-a, table, caption, thead, tbody
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: -25px
+      left: -48px
+      width: calc(100% + 96px)
+      height: 115%
+      background-image: url('../assets/curso/temas/tema_2/img_13.png') !important
+      background-repeat: no-repeat
+      background-size: cover 
+      background-position: center
+      overflow: hidden 
+    .slyder-a__tipo-b .slyder-a__btn--sigt
+      background-color: $color-acento-botones
+    .slyder-a__tipo-b .slyder-a__btn--atrs
+      background-color: $color-acento-botones
+    .slyder-a__bullets__item--active
+      background-color: $color-acento-contenido !important
+      border-color: $color-acento-contenido !important
+      opacity: 1
+    .slyder-a__bullets__item
+      background-color: lighten($color-acento-contenido, 15%)
+      border: 1px solid lighten($color-acento-contenido, 15%)
+
+// factores-slider custom-slider
+.factores-slider, .custom-slider
+  &__icon 
+    max-height: 93px
+  .slyder-f
+    align-items: center
+    justify-content: center
+    gap: 0
+  .slyder-f__btn
+    background-color: $color-acento-botones
+    height: 42px
+    width: 42px
+    min-width: 42px
+    border-radius: 50%
+    padding: 0 !important
+    transition: transform 0.3s
+    z-index: 100
+    
+    &:hover
+      transform: scale(1.1)
+    .fa-chevron-left, .fa-chevron-right
+      font-size: 1.5rem
+    &.ps-3
+      margin-left: 7px
+      @media (max-width: 1024px)
+        margin-left: 7px
+    &.pe-3
+      margin-right: 7px
+      @media (max-width: 1024px)
+        margin-right: 7px

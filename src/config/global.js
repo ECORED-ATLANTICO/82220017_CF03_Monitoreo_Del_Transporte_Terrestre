@@ -1,17 +1,18 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    Name: 'Sistemas de control y monitoreo en transporte',
+    Description:
+      'El programa sistema de control y monitoreo en transporte, se alinea con la tecnología de vanguardia como GPS, busca la visibilidad integral siendo parte del segmento de la cadena de transporte. Estas herramientas permiten una recopilación y análisis de datos críticos sobre el rendimiento operativo, el comportamiento de los conductores, el estado funcional de los vehículos y las condiciones específicas de la carga. Esta información es indispensable para la toma de decisiones que facilitan una reducción de costos y tiempos de tránsito,  incrementando la eficiencia en la administración de flotas y la planificación del mantenimiento predictivo.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
       },
     ],
   },
@@ -31,13 +32,28 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Plan de la operación del transporte terrestre',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Concepto',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Rutas',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Recorridos autorizados',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Frecuencias y horarios',
+            hash: 't_1_4',
           },
         ],
       },
@@ -45,14 +61,79 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Técnicas de monitoreo',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Datos',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Registro de la operación',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Procedimiento',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Proceso continuo',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Proceso sistemático',
+            hash: 't_3_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Informe de seguimiento',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Seguimiento periódico',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Resultados de la ejecución',
+            hash: 't_4_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Calidad del servicio',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '5.1',
+            titulo: 'Concepto',
+            hash: 't_5_1',
+          },
+          {
+            numero: '5.2',
+            titulo: 'Criterios de evaluación',
+            hash: 't_5_2',
+          },
+          {
+            numero: '5.3',
+            titulo: 'Procedimiento',
+            hash: 't_5_3',
+          },
+        ],
       },
     ],
     subMenu: [

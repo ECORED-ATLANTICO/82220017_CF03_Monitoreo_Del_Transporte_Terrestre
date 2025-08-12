@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-atlantico.github.io/ECORED-BASE-REPO/](https://ecored-atlantico.github.io/ECORED-BASE-REPO/)
+[ https://ecored-atlantico.github.io/82220017_CF03_Monitoreo_Del_Transporte_Terrestre/]( https://ecored-atlantico.github.io/82220017_CF03_Monitoreo_Del_Transporte_Terrestre/)
 
 #
 
@@ -38,4 +38,6 @@ npm run build
 
 ### Linteo y arreglo de sintaxis de archivos
 
+```
+npm run lint
 ```
