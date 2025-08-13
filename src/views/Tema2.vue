@@ -24,22 +24,22 @@
           .mb-3
       
       .row.justify-content-center.align-items-center.mb-5
-        .col-12.col-lg-3.mb-lg-0.mb-3
+        .col-12.col-lg-3.mb-lg-0.mb-3(data-aos="zoom-in-right")
           figure
             img(src='@/assets/curso/temas/tema_2/img_2.png', class="img-fluid")
         .col-12.col-lg-7
-          .cajon.color-secundario-5.p-4.mb-3
+          .cajon.color-secundario-5.p-4.mb-3(data-aos="zoom-in-right")
             p.mb-0 El sistema de monitoreo cuenta con los datos recolectados por parte de los dispositivos que se estén empleando, estos deben ser de calidad, relevancia y que sean oportunos en la toma de decisiones.
       
       .row.justify-content-center.align-items-center
         .col-12.col-lg-10.mb-3
-          .titulo-sexto.color-acento-contenido
+          .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
             h5 Figura 2.
             |    Sistema de datos de transporte
-          figure
-            img(src='@/assets/curso/temas/tema_2/img_3.svg', class="img-fluid d-none d-lg-block")
-            img(src='@/assets/curso/temas/tema_2/img_4.svg', class="img-fluid d-block d-lg-none")
-            figcaption <b>Fuente.</b> SENA, 2025.
+          figure(data-aos="zoom-in-right")
+            img(src='@/assets/curso/temas/tema_2/img_3.svg', class="img-fluid d-none d-lg-block mb-3")
+            img(src='@/assets/curso/temas/tema_2/img_4.svg', class="img-fluid d-block d-lg-none mb-3")
+            figcaption(data-aos="zoom-in-right") <b>Fuente.</b> SENA, 2025.
     
     .bg_img_4.mb-3
 
@@ -51,10 +51,10 @@
             .h2(data-aos="fade-right") 2.2 Registro de la operación
           .mb-3
       .row.justify-content-center.align-items-center.mb-5
-        .col-12.col-lg-2.mb-lg-0.mb-3
+        .col-12.col-lg-2.mb-lg-0.mb-3(data-aos="zoom-in-right")
           figure
             img(src='@/assets/curso/temas/tema_2/img_5.png', class="img-fluid")
-        .col-12.col-lg-8
+        .col-12.col-lg-8(data-aos="zoom-in-right")
           p.mb-0 El registro de la operación va más allá de simplemente almacenar datos; se trata de estructurarlos, analizarlos y convertirlos en información útil para la toma de decisiones. Este proceso es fundamental para la auditoría, la mejora continua y la rendición de cuentas.
       
       .bg_img_5.mb-3
@@ -77,22 +77,28 @@
                 img(src='@/assets/curso/temas/tema_2/img_7.png', class="img-fluid")
           .row.justify-content-center.align-items-center
             .col-12.col-lg-6.order-2.order-lg-1.mb-0
-              h5 Integración con otros sistemas
-              p.mb-0 
+              h5 Datos de conducción
+              p.mb-3 <B>• Aceleraciones y frenadas bruscas:</B> ndicadores de conducción agresiva o insegura.
+              p.mb-3 <B>• Exceso de velocidad:</B> monitoreo del cumplimiento de los límites de velocidad.
+              p.mb-3 <B>• Tiempos de marcha/parada y descanso:</B> crucial para la gestión de la fatiga del conductor y el cumplimiento de las normativas de horas de servicio.
+              p.mb-0 <B>• Giro brusco y viraje excesivo:</B>  posibles indicadores de distracciones o maniobras peligrosas.
             .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
               figure
                 img(src='@/assets/curso/temas/tema_2/img_8.png', class="img-fluid")
           .row.justify-content-center.align-items-center
             .col-12.col-lg-6.order-2.order-lg-1.mb-0
-              h5  Análisis predictivo y prescriptivo
-              p.mb-0 
+              h5 Datos Operacionales Integrados
+              p.mb-3 <B>• Estado del tráfico en tiempo real:</B> integración con servicios de tráfico para optimizar rutas y tiempos.
+              p.mb-3 <B>• Condiciones climáticas:</B>  impacto en la seguridad y los tiempos de entrega.
+              p.mb-0 <B>• Información de pedidos y entregas:</B> sincronización con sistemas de gestión de pedidos (OMS) y planificación de rutas para tener una visión completa de cada envío.
             .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
               figure
                 img(src='@/assets/curso/temas/tema_2/img_9.png', class="img-fluid")
           .row.justify-content-center.align-items-center
             .col-12.col-lg-6.order-2.order-lg-1.mb-0
-              h5 
-              p.mb-0 
+              h5 Datos de carga
+              p.mb-3 <B>• Peso de la carga:</B> monitoreo de la tara y el peso bruto para evitar sobrecargas y optimizar la capacidad.
+              p.mb-0 <B>• Estado de la carga:</B> información sobre el estado de bienes específicos.
             .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
               figure
                 img(src='@/assets/curso/temas/tema_2/img_10.png', class="img-fluid")

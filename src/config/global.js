@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Sistemas de control y monitoreo en transporte',
     Description:
-      'El programa sistema de control y monitoreo en transporte, se alinea con la tecnología de vanguardia como GPS, busca la visibilidad integral siendo parte del segmento de la cadena de transporte. Estas herramientas permiten una recopilación y análisis de datos críticos sobre el rendimiento operativo, el comportamiento de los conductores, el estado funcional de los vehículos y las condiciones específicas de la carga. Esta información es indispensable para la toma de decisiones que facilitan una reducción de costos y tiempos de tránsito,  incrementando la eficiencia en la administración de flotas y la planificación del mantenimiento predictivo.',
+      'El programa sistema de control y monitoreo en transporte, se alinea con la tecnología de vanguardia como <I>GPS</I>, busca la visibilidad integral siendo parte del segmento de la cadena de transporte. Estas herramientas permiten una recopilación y análisis de datos críticos sobre el rendimiento operativo, el comportamiento de los conductores, el estado funcional de los vehículos y las condiciones específicas de la carga. Esta información es indispensable para la toma de decisiones que facilitan una reducción de costos y tiempos de tránsito,  incrementando la eficiencia en la administración de flotas y la planificación del mantenimiento predictivo.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
