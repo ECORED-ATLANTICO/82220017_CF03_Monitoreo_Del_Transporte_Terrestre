@@ -33,13 +33,83 @@
       
       .row.justify-content-center.align-items-center
         .col-12.col-lg-10.mb-3
-          .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
-            h5 Figura 2.
-            |    Sistema de datos de transporte
-          figure(data-aos="zoom-in-right")
-            img(src='@/assets/curso/temas/tema_2/img_3.svg', class="img-fluid d-none d-lg-block mb-3")
-            img(src='@/assets/curso/temas/tema_2/img_4.svg', class="img-fluid d-block d-lg-none mb-3")
-            figcaption(data-aos="zoom-in-right") <b>Fuente.</b> SENA, 2025.
+          .gps-infografia-container
+            // Wrapper de la infografía (definido en CSS)
+            .infografia-wrapper
+              // Contenedor de imagen con posicionamiento relativo
+              .imagen-container
+                // Inputs radio ocultos para controlar el estado de los puntos
+                // Cada input representa un punto de la infografía
+                input#infografia-punto-1.d-none(type="radio" name="infografia-puntos" checked)
+                input#infografia-punto-2.d-none(type="radio" name="infografia-puntos")
+                input#infografia-punto-3.d-none(type="radio" name="infografia-puntos")
+                input#infografia-punto-4.d-none(type="radio" name="infografia-puntos")
+                input#infografia-punto-5.d-none(type="radio" name="infografia-puntos")
+                // Labels que actúan como botones interactivos para los puntos
+                // Cada label está posicionado absolutamente sobre la imagen
+                label.punto-info(for="infografia-punto-1" style="top: 10%; left: 68.8%;")
+                  .punto-numero 
+                label.punto-info(for="infografia-punto-2" style="top: 26.9%; left: 68.8%;")
+                  .punto-numero 
+                label.punto-info(for="infografia-punto-3" style="top: 43.9%; left: 68.8%;")
+                  .punto-numero 
+                label.punto-info(for="infografia-punto-4" style="top: 60.9%; left: 68.8%;")
+                  .punto-numero 
+                label.punto-info(for="infografia-punto-5" style="top: 77.9%; left: 68.8%;")
+                  .punto-numero 
+                // Contenedor de las tarjetas de información (posicionado en CSS)
+                .info-cards-container
+                  .info-card(data-card="1")
+                    .card-header
+                      h5.mb-0 Datos de posición y trayectoria (GPS/GNSS)
+                    .card-content.text-small
+                      p.mb-0 <B>Coordenadas geográficas:</B> latitud, longitud y altitud para una ubicación precisa.
+                      p.mb-0 <B>Velocidad y dirección:</B> crucial para el análisis de rutas, tiempos de llegada estimados <I>(ETA)</I> y detección de desviaciones.
+                      p.mb-0 <B>Historial de rutas:</B> permite la auditoría de trayectorias, identificación de puntos de interés <I>(POI)</I> y análisis de cumplimiento de rutas planificadas.
+                      p.mb-0 <B>Geocercas:</B> datos sobre entradas y salidas de zonas predefinidas (patios, almacenes, áreas de entrega), activando alertas automáticas.
+                    .numero-circulo 1
+                  .info-card(data-card="2")
+                    .card-header
+                      h5.mb-0 Datos de sensores telemáticos 
+                    .card-content
+                      p.mb-2 Estos sensores proporcionan información vital sobre el estado del vehículo y la carga.
+                      p.mb-0 <B>Sensores de combustible:</B> nivel de combustible, consumo en tiempo real, detección de robos o fugas.
+                      p.mb-0 <B>Sensores de temperatura y humedad:</B> indispensables para el transporte de carga sensible (farmacéuticos, alimentos perecederos), asegurando la cadena de frío/calor.
+                      p.mb-0 <B>Sensores de apertura/cierre de puertas:</B> : notificaciones sobre accesos no autorizados a la carga o compartimentos del vehículo.
+                      p.mb-0 <B>Sensores de vibración/Impacto:</B> detección de manejo brusco, accidentes o golpes a la carga.
+                      p.mb-0 <B>Sensores de presión de neumáticos <I>(TPMS)</I>:</B> monitoreo de la presión y temperatura de los neumáticos para prevenir fallas y optimizar el consumo de combustible
+                    .numero-circulo 2
+                  .info-card(data-card="3")
+                    .card-header
+                      h5.mb-0 Datos de conducción
+                    .card-content
+                      p.mb-0 <B>Aceleraciones y frenadas bruscas:</B> indicadores de conducción agresiva o insegura.
+                      p.mb-0 <B>Exceso de velocidad:</B> monitoreo del cumplimiento de los límites de velocidad.
+                      p.mb-0 <B>Tiempos de marcha/parada y descanso:</B> crucial para la gestión de la fatiga del conductor y el cumplimiento de las normativas de horas de servicio.
+                      p.mb-0 <B>Giro brusco y viraje excesivo:</B> posibles indicadores de distracciones o maniobras peligrosas.
+                    .numero-circulo 3
+                  .info-card(data-card="4")
+                    .card-header
+                      h5.mb-0 Datos de carga
+                    .card-content
+                      p <B>Peso de la carga:</B> monitoreo de la tara y el peso bruto para evitar sobrecargas y optimizar la capacidad.
+                      p <B>Estado de la carga:</B> información sobre el estado de bienes específicos.
+                    .numero-circulo 4
+                  .info-card(data-card="5")
+                    .card-header
+                      h5.mb-0 Datos operacionales integrados:
+                    .card-content
+                      p.mb-0 <B>Estado del tráfico en tiempo real:</B> integración con servicios de tráfico para optimizar rutas y tiempos.
+                      p.mb-0 <B>Condiciones climáticas:</B> impacto en la seguridad y los tiempos de entrega.
+                      p.mb-0 <B>Información de pedidos y entregas:</B> sincronización con sistemas de gestión de pedidos <I>(OMS)</I> y planificación de rutas para tener una visión completa de cada envío.
+                    .numero-circulo 5
+                // Elemento picture para imágenes responsivas
+                picture
+                  // Fuente de imagen para móviles (ancho <= 769px)
+                  source(media="(max-width: 769px)", :srcset="require('@/assets/curso/temas/tema_2/img_4.svg')")
+                  // Imagen principal para pantallas más grandes
+                  img.imagen-principal(:src="require('@/assets/curso/temas/tema_2/img_3.svg')", class="img-fluid")
+
     
     .bg_img_4.mb-3
 
@@ -102,8 +172,6 @@
             .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
               figure
                 img(src='@/assets/curso/temas/tema_2/img_10.png', class="img-fluid")
-
-
 </template>
 
 <script>

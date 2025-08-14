@@ -333,3 +333,161 @@ figcaption
   display: flex !important
   align-items: center !important
   justify-content: center !important
+
+// Contenedor principal de la infografía GPS
+// ----------------------------------------
+.infografia-wrapper
+  width: 100% // Ocupa el 100% del ancho disponible
+
+// Contenedor de la imagen principal con posicionamiento relativo
+// para permitir elementos absolutos dentro
+.imagen-container
+  position: relative // Establece el contexto de posicionamiento
+  
+  // Imagen principal de la infografía
+  .imagen-principal
+    width: 100% // Ancho completo del contenedor
+    display: block // Elimina espacios no deseados debajo de la imagen
+
+// Estilos para los puntos interactivos de la infografía
+// ----------------------------------------------------
+.punto-info
+  position: absolute // Posicionamiento absoluto respecto al contenedor padre
+  z-index: 20 // Asegura que esté por encima de otros elementos
+  
+  // Estilo del círculo numerado que sirve como botón
+  .punto-numero
+    width: 35px // Tamaño fijo
+    height: 35px
+    border-radius: 50% // Forma circular perfecta
+    display: grid // Usa grid para centrar el contenido
+    place-items: center // Centra el número vertical y horizontalmente
+    font-weight: 700 // Texto en negrita
+    cursor: pointer // Cambia el cursor a mano al pasar
+    transition: all 0.3s ease // Transición suave para efectos hover
+    
+    // Efecto al pasar el mouse sobre el punto
+    &:hover
+      transform: scale(1.2) // Escala el punto un 20%
+
+// Contenedor de las tarjetas de información
+// -----------------------------------------
+.info-cards-container
+  position: absolute // Posicionamiento absoluto
+  top: 15% // Posición desde la parte superior
+  left: 27% // Posición desde la izquierda
+  transform: translateY(-50%) translateX(-50%) // Centrado preciso
+  width: 90% // Ancho relativo
+  max-width: 500px // Ancho máximo fijo
+  pointer-events: none // Evita que intercepte eventos del mouse inicialmente
+
+// Estilo de las tarjetas de información individuales
+// -------------------------------------------------
+.info-card
+  position: absolute // Posicionamiento absoluto
+  width: 100% // Ancho completo del contenedor
+  background: transparent // Fondo transparente
+  border: 2px solid $color-acento-botones // Borde con color de acento
+  border-radius: 25px // Esquinas redondeadas
+  padding: 1.5rem // Espaciado interno
+  box-shadow: 0 15px 35px rgba(100, 100, 100, 0.1) // Sombra sutil
+  opacity: 0 // Inicialmente transparente
+  visibility: hidden // Inicialmente oculta
+  transition: all 0.3s ease-in-out // Transición suave
+  max-height: 400px // Altura máxima con scroll
+  display: flex // Usa flexbox para disposición
+  flex-direction: column // Organiza elementos en columna
+  box-sizing: border-box // Modelo de caja que incluye padding en el ancho
+  
+  // Cabecera de la tarjeta con título
+  .card-header
+    top: -25px // Posición fuera del contenedor principal
+    left: 1.5rem // Alineado con el padding de la tarjeta
+    position: absolute // Posicionamiento absoluto
+    display: inline-block // Muestra como bloque en línea
+    align-self: flex-start // Alineación en flexbox
+    flex-shrink: 0 // Evita que se encoja
+    background-color: $color-sistema-h // Color de fondo
+    border: 4px solid $color-acento-botones // Borde acentuado
+    padding: 0.5rem 1.5rem // Espaciado interno
+    border-radius: 30px // Esquinas muy redondeadas
+    font-weight: 700 // Texto en negrita
+    font-size: 1.1rem // Tamaño de fuente ligeramente mayor
+  
+  // Contenido principal de la tarjeta
+  .card-content
+    flex-grow: 1 // Ocupa todo el espacio disponible
+    overflow-y: auto // Scroll vertical si el contenido es muy largo
+    p
+      color: $color-sistema-texto // Color del texto
+      font-size: 0.9rem // Tamaño de fuente
+      line-height: 1.6 // Interlineado amplio
+      margin: 0 // Elimina márgenes por defecto
+      strong
+        font-weight: 700 // Texto en negrita
+  
+  // Círculo numerado en la esquina inferior derecha
+  .numero-circulo
+    position: absolute // Posicionamiento absoluto
+    bottom: -1.5rem // Posición fuera del contenedor
+    right: 1rem // Desde la derecha
+    width: 50px // Tamaño fijo
+    height: 50px
+    background: $color-sistema-h // Mismo color que la cabecera
+    border: 4px solid $color-acento-botones // Borde acentuado
+    border-radius: 50% // Forma circular perfecta
+    display: grid // Usa grid para centrar
+    place-items: center // Centra el número
+    font-size: 1.5rem // Tamaño de fuente grande
+    font-weight: bold // Texto en negrita
+
+// Bucle para generar estilos específicos para cada punto (1-5)
+// -----------------------------------------------------------
+@for $i from 1 through 5
+  // Cuando un punto está seleccionado (checkbox marcado)
+  #infografia-punto-#{$i}:checked
+    // Estilo para la etiqueta del punto correspondiente
+    & ~ label[for='infografia-punto-#{$i}'] .punto-numero
+      transform: scale(1.2) // Efecto de escala
+    
+    // Muestra la tarjeta de información correspondiente
+    & ~ .info-cards-container .info-card[data-card='#{$i}']
+      opacity: 1 // Hace visible
+      visibility: visible
+      pointer-events: auto // Permite interacción
+
+// Media queries para diseño responsivo
+// -----------------------------------
+
+// Para pantallas menores a 992px
+@media (max-width: 991.98px)
+  .info-cards-container
+    left: 50% // Centrado horizontal
+    width: 95% // Más ancho
+    top: 50% // Centrado vertical
+    transform: translate(-50%, -50%) // Centrado preciso
+
+// Para pantallas móviles (menores a 768px)
+@media (max-width: 768px)
+  // Reposicionamiento específico de cada punto en móviles
+  // Todos alineados en la parte superior en una fila horizontal
+  label.punto-info
+    &[for='infografia-punto-1']
+      top: 22.45% !important
+      left: 12.7% !important
+  
+    &[for='infografia-punto-2']
+      top: 22.45% !important
+      left: 30.9% !important
+    
+    &[for='infografia-punto-3']
+      top: 22.45% !important
+      left: 48.9% !important
+    
+    &[for='infografia-punto-4']
+      top: 22.45% !important
+      left: 67% !important
+    
+    &[for='infografia-punto-5']
+      top: 22.45% !important
+      left: 85% !important
