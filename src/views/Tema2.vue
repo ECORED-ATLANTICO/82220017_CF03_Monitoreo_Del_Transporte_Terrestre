@@ -34,19 +34,13 @@
       .row.justify-content-center.align-items-center
         .col-12.col-lg-10.mb-3
           .gps-infografia-container
-            // Wrapper de la infografía (definido en CSS)
             .infografia-wrapper
-              // Contenedor de imagen con posicionamiento relativo
               .imagen-container
-                // Inputs radio ocultos para controlar el estado de los puntos
-                // Cada input representa un punto de la infografía
                 input#infografia-punto-1.d-none(type="radio" name="infografia-puntos" checked)
                 input#infografia-punto-2.d-none(type="radio" name="infografia-puntos")
                 input#infografia-punto-3.d-none(type="radio" name="infografia-puntos")
                 input#infografia-punto-4.d-none(type="radio" name="infografia-puntos")
                 input#infografia-punto-5.d-none(type="radio" name="infografia-puntos")
-                // Labels que actúan como botones interactivos para los puntos
-                // Cada label está posicionado absolutamente sobre la imagen
                 label.punto-info(for="infografia-punto-1" style="top: 10%; left: 68.8%;")
                   .punto-numero 
                 label.punto-info(for="infografia-punto-2" style="top: 26.9%; left: 68.8%;")
@@ -57,7 +51,6 @@
                   .punto-numero 
                 label.punto-info(for="infografia-punto-5" style="top: 77.9%; left: 68.8%;")
                   .punto-numero 
-                // Contenedor de las tarjetas de información (posicionado en CSS)
                 .info-cards-container
                   .info-card(data-card="1")
                     .card-header
@@ -103,11 +96,8 @@
                       p.mb-0 <B>Condiciones climáticas:</B> impacto en la seguridad y los tiempos de entrega.
                       p.mb-0 <B>Información de pedidos y entregas:</B> sincronización con sistemas de gestión de pedidos <I>(OMS)</I> y planificación de rutas para tener una visión completa de cada envío.
                     .numero-circulo 5
-                // Elemento picture para imágenes responsivas
                 picture
-                  // Fuente de imagen para móviles (ancho <= 769px)
                   source(media="(max-width: 769px)", :srcset="require('@/assets/curso/temas/tema_2/img_4.svg')")
-                  // Imagen principal para pantallas más grandes
                   img.imagen-principal(:src="require('@/assets/curso/temas/tema_2/img_3.svg')", class="img-fluid")
 
     
