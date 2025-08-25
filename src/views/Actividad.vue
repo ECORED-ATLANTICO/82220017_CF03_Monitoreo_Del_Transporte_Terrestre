@@ -28,7 +28,7 @@ export default {
         {
           id: 1,
           texto:
-            'El seguimiento (tracking) se limita principalmente a la localización geográfica de un activo.',
+            'El seguimiento (<i>tracking</i>) se limita principalmente a la localización geográfica de un activo.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -51,7 +51,7 @@ export default {
         {
           id: 2,
           texto:
-            'El monitoreo integral solo se enfoca en la ubicación del vehículo, al igual que el tracking.',
+            'El monitoreo integral solo se enfoca en la ubicación del vehículo, al igual que el <i>tracking</i>.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -97,7 +97,7 @@ export default {
         {
           id: 4,
           texto:
-            'El tracking proporciona datos sobre el estado mecánico del vehículo en tiempo real.',
+            'El <i>tracking</i> proporciona datos sobre el estado mecánico del vehículo en tiempo real.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -143,7 +143,7 @@ export default {
         {
           id: 6,
           texto:
-            ' Para el control operativo, el seguimiento (tracking) es siempre suficiente por sí solo',
+            ' Para el control operativo, el seguimiento (<i>tracking</i>) es siempre suficiente por sí solo',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -189,7 +189,7 @@ export default {
         {
           id: 8,
           texto:
-            'La principal diferencia entre tracking y monitoreo integral radica en la cantidad y tipo de datos recopilados y analizados.',
+            'La principal diferencia entre <i>tracking</i> y monitoreo integral radica en la cantidad y tipo de datos recopilados y analizados.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -235,7 +235,7 @@ export default {
         {
           id: 10,
           texto:
-            'El seguimiento (tracking) ofrece una visión holística y profunda de toda la operación de transporte',
+            'El seguimiento (<i>tracking</i>) ofrece una visión holística y profunda de toda la operación de transporte',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -304,7 +304,7 @@ export default {
         {
           id: 13,
           texto:
-            'El tracking es una funcionalidad que puede ser un componente de un sistema de monitoreo integral.',
+            'El <i>tracking</i> es una funcionalidad que puede ser un componente de un sistema de monitoreo integral.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
@@ -327,7 +327,7 @@ export default {
         {
           id: 14,
           texto:
-            'La tecnología Blockchain favorece la inmutabilidad de los datos, lo que significa que los registros son muy difíciles de alterar.',
+            'La tecnología <i>Blockchain</i> favorece la inmutabilidad de los datos, lo que significa que los registros son muy difíciles de alterar.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
@@ -350,7 +350,7 @@ export default {
         {
           id: 15,
           texto:
-            'Blockchain elimina completamente la necesidad de cualquier intermediario en una transacción logística.',
+            '<i>Blockchain</i> elimina completamente la necesidad de cualquier intermediario en una transacción logística.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
@@ -396,7 +396,7 @@ export default {
         {
           id: 17,
           texto:
-            'Blockchain es útil para verificar la autenticidad de los productos a lo largo de la cadena de suministro',
+            '<i>Blockchain</i> es útil para verificar la autenticidad de los productos a lo largo de la cadena de suministro.',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
@@ -419,7 +419,7 @@ export default {
         {
           id: 18,
           texto:
-            'La adopción de Blockchain en la trazabilidad logística es siempre sencilla y de bajo costo inicial.',
+            'La adopción de <i>Blockchain</i> en la trazabilidad logística es siempre sencilla y de bajo costo inicial.',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
@@ -442,7 +442,7 @@ export default {
         {
           id: 19,
           texto:
-            'La tecnología Blockchain favorece la inmutabilidad de los datos, lo que significa que los registros son muy difíciles de alterar.',
+            'La tecnología <i>Blockchain</i> favorece la inmutabilidad de los datos, lo que significa que los registros son muy difíciles de alterar.',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
@@ -465,7 +465,7 @@ export default {
         {
           id: 20,
           texto:
-            'Blockchain es vulnerable a un "punto único de fallo" debido a su naturaleza distribuida.',
+            '<i>Blockchain</i> es vulnerable a un "punto único de fallo" debido a su naturaleza distribuida.',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [

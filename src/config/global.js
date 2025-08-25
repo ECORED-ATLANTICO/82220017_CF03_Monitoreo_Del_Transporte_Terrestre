@@ -239,7 +239,7 @@ export default {
     {
       termino: '<em>KPI (Key Performance Indicator)</em>',
       significado:
-        'Indicador Clave de Desempeño. Es una métrica cuantificable que se utiliza para evaluar la eficiencia y la efectividad con la que se están logrando los objetivos preestablecidos en las operaciones de transporte.',
+        'indicador clave de desempeño. Es una métrica cuantificable que se utiliza para evaluar la eficiencia y la efectividad con la que se están logrando los objetivos preestablecidos en las operaciones de transporte.',
     },
     {
       termino: 'Mantenimiento Predictivo',

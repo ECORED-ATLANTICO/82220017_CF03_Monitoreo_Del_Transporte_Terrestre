@@ -54,9 +54,9 @@
                 .info-cards-container
                   .info-card(data-card="1")
                     .card-header
-                      h5.mb-0 Datos de posición y trayectoria (GPS/GNSS)
+                      h5.mb-0 Datos de posición y trayectoria (<i>GPS/GNSS</i>)
                     .card-content.text-small
-                      p.mb-0 <B>Coordenadas geográficas:</B> latitud, longitud y altitud para una ubicación precisa.
+                      p.mb-0.mt-5 <B>Coordenadas geográficas:</B> latitud, longitud y altitud para una ubicación precisa.
                       p.mb-0 <B>Velocidad y dirección:</B> crucial para el análisis de rutas, tiempos de llegada estimados <I>(ETA)</I> y detección de desviaciones.
                       p.mb-0 <B>Historial de rutas:</B> permite la auditoría de trayectorias, identificación de puntos de interés <I>(POI)</I> y análisis de cumplimiento de rutas planificadas.
                       p.mb-0 <B>Geocercas:</B> datos sobre entradas y salidas de zonas predefinidas (patios, almacenes, áreas de entrega), activando alertas automáticas.
@@ -65,10 +65,10 @@
                     .card-header
                       h5.mb-0 Datos de sensores telemáticos 
                     .card-content
-                      p.mb-2 Estos sensores proporcionan información vital sobre el estado del vehículo y la carga.
+                      p.mb-0.mt-3 Estos sensores proporcionan información vital sobre el estado del vehículo y la carga.
                       p.mb-0 <B>Sensores de combustible:</B> nivel de combustible, consumo en tiempo real, detección de robos o fugas.
                       p.mb-0 <B>Sensores de temperatura y humedad:</B> indispensables para el transporte de carga sensible (farmacéuticos, alimentos perecederos), asegurando la cadena de frío/calor.
-                      p.mb-0 <B>Sensores de apertura/cierre de puertas:</B> : notificaciones sobre accesos no autorizados a la carga o compartimentos del vehículo.
+                      p.mb-0 <B>Sensores de apertura/cierre de puertas:</B> notificaciones sobre accesos no autorizados a la carga o compartimentos del vehículo.
                       p.mb-0 <B>Sensores de vibración/Impacto:</B> detección de manejo brusco, accidentes o golpes a la carga.
                       p.mb-0 <B>Sensores de presión de neumáticos <I>(TPMS)</I>:</B> monitoreo de la presión y temperatura de los neumáticos para prevenir fallas y optimizar el consumo de combustible
                     .numero-circulo 2
@@ -76,7 +76,7 @@
                     .card-header
                       h5.mb-0 Datos de conducción
                     .card-content
-                      p.mb-0 <B>Aceleraciones y frenadas bruscas:</B> indicadores de conducción agresiva o insegura.
+                      p.mb-0.mt-3 <B>Aceleraciones y frenadas bruscas:</B> indicadores de conducción agresiva o insegura.
                       p.mb-0 <B>Exceso de velocidad:</B> monitoreo del cumplimiento de los límites de velocidad.
                       p.mb-0 <B>Tiempos de marcha/parada y descanso:</B> crucial para la gestión de la fatiga del conductor y el cumplimiento de las normativas de horas de servicio.
                       p.mb-0 <B>Giro brusco y viraje excesivo:</B> posibles indicadores de distracciones o maniobras peligrosas.
@@ -85,14 +85,14 @@
                     .card-header
                       h5.mb-0 Datos de carga
                     .card-content
-                      p <B>Peso de la carga:</B> monitoreo de la tara y el peso bruto para evitar sobrecargas y optimizar la capacidad.
-                      p <B>Estado de la carga:</B> información sobre el estado de bienes específicos.
+                      p.mb-0.mt-3 <B>Peso de la carga:</B> monitoreo de la tara y el peso bruto para evitar sobrecargas y optimizar la capacidad.
+                      p.mb-0 <B>Estado de la carga:</B> información sobre el estado de bienes específicos.
                     .numero-circulo 4
                   .info-card(data-card="5")
                     .card-header
                       h5.mb-0 Datos operacionales integrados:
                     .card-content
-                      p.mb-0 <B>Estado del tráfico en tiempo real:</B> integración con servicios de tráfico para optimizar rutas y tiempos.
+                      p.mb-0.mt-3 <B>Estado del tráfico en tiempo real:</B> integración con servicios de tráfico para optimizar rutas y tiempos.
                       p.mb-0 <B>Condiciones climáticas:</B> impacto en la seguridad y los tiempos de entrega.
                       p.mb-0 <B>Información de pedidos y entregas:</B> sincronización con sistemas de gestión de pedidos <I>(OMS)</I> y planificación de rutas para tener una visión completa de cada envío.
                     .numero-circulo 5
@@ -137,11 +137,11 @@
                 img(src='@/assets/curso/temas/tema_2/img_7.png', class="img-fluid")
           .row.justify-content-center.align-items-center
             .col-12.col-lg-6.order-2.order-lg-1.mb-0
-              h5 Datos de conducción
-              p.mb-3 <B>• Aceleraciones y frenadas bruscas:</B> ndicadores de conducción agresiva o insegura.
-              p.mb-3 <B>• Exceso de velocidad:</B> monitoreo del cumplimiento de los límites de velocidad.
-              p.mb-3 <B>• Tiempos de marcha/parada y descanso:</B> crucial para la gestión de la fatiga del conductor y el cumplimiento de las normativas de horas de servicio.
-              p.mb-0 <B>• Giro brusco y viraje excesivo:</B>  posibles indicadores de distracciones o maniobras peligrosas.
+              h5 Integración con otros sistemas
+              p.mb-3 <B>• Sistemas de planificación de rutas <i>(RPS)</i>:</B> retroalimentación para optimizar rutas futuras basándose en datos reales de tráfico y tiempos de entrega.
+              p.mb-3 <B>• Sistemas de gestión de almacenes <i>(WMS)</i>:</B> coordinación de la llegada de vehículos y la disponibilidad de carga/descarga.
+              p.mb-3 <B>• Sistemas de gestión de flota <i>(FMS)</i>:</B> integración de datos de mantenimiento, consumo y rendimiento para una gestión integral.
+              p.mb-0 <B>• Sistemas <i>ERP/TMS</i>:</B> centralización de la información logística y financiera para una visión unificada de la cadena de suministro.            
             .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
               figure
                 img(src='@/assets/curso/temas/tema_2/img_8.png', class="img-fluid")

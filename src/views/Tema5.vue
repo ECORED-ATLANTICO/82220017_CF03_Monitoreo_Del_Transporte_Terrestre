@@ -53,7 +53,7 @@
             .tarjeta-numerada__numero
               figure
                 img(src='@/assets/curso/temas/tema_5/img_6.png', class="img-fluid")
-            p.mb-0 <B>angibles:</B> la apariencia de los vehículos, equipos y el personal; la calidad de los documentos y la tecnología utilizada.
+            p.mb-0 <B>Angibles:</B> la apariencia de los vehículos, equipos y el personal; la calidad de los documentos y la tecnología utilizada.
         .col-12.col-lg-4.mb-3(data-aos="zoom-in-right")
           .tarjeta-numerada.color-acento-botones.pt-3.pb-3.ps-5.pe-3.h-100 
             .tarjeta-numerada__numero
@@ -107,7 +107,7 @@
                 |  <B>Profesionalismo del personal:</B> evaluación de la conducta y el servicio del conductor y el personal de soporte.
               li.mb-3.border-bottom.border-dashed.pb-2
                 i.fa-solid.fa-circle-check(style="color: #FF9854; font-size: 15px").mb-0
-                |  <B>Flexibilidad operacional:</B> : capacidad de adaptarse a cambios de último minuto en la planificación.
+                |  <B>Flexibilidad operacional:</B> capacidad de adaptarse a cambios de último minuto en la planificación.
               li.mb-3.border-bottom.border-dashed.pb-2
                 i.fa-solid.fa-circle-check(style="color: #FF9854; font-size: 15px").mb-0
                 |  <B>Procedimiento para la evaluación de la calidad del servicio:</B> para garantizar una evaluación sistemática y accionable de la calidad, se implementan procedimientos que pueden incluir:
@@ -152,24 +152,24 @@
         p.mb-0 Una vez seleccionada la tecnología, la instalación del <I>hardware</I> como sensores de vehículo, cámaras, <I>GPS</I>, lectores de diagnóstico y dispositivos <I>IoT</I> debe ejecutarse de forma meticulosa para asegurar su correcto funcionamiento en diferentes tipos de vehículos y condiciones operativas. En paralelo, se configura el <I>software</I> de monitoreo, incluyendo los parámetros clave a seguir (velocidad, temperatura, consumo, tiempos de descanso, etc.) y se establece la arquitectura para el análisis y visualización de datos. Es clave integrar este sistema con otros existentes (como <I>ERP, TMS o WMS</I>) para evitar silos de información.
 
     .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-right")
-      h5 Figura 3.
+      h5 Figura 2.
       |    Pasos del procedimiento de calidad de servicio
     figure.mb-5(data-aos="zoom-in-right")
       img(src='@/assets/curso/temas/tema_5/img_12.png', class="img-fluid d-none d-lg-block mb-3")
       img(src='@/assets/curso/temas/tema_5/img_13.png', class="img-fluid d-block d-lg-none mb-3")
       img(src='@/assets/curso/temas/tema_5/img_14.png', class="img-fluid d-block d-lg-none mb-3")
       img(src='@/assets/curso/temas/tema_5/img_15.png', class="img-fluid d-block d-lg-none mb-3")
-      figcaption(data-aos="zoom-in-right") <b>Fuente.</b> SENA, 2025.
+      figcaption(data-aos="zoom-in-right") <b>Fuente:</b> SENA, 2025.
 
     .row.justify-content-center.align-items-center.mb-0
       .col-12.col-lg-10.mb-0
         .titulo-sexto.color-acento-contenido.mb-5(data-aos="zoom-in-right")
-          h5 Figura 4.
+          h5 Figura 3.
           |    Implementación y gestión
         figure(data-aos="zoom-in-right")
           img(src='@/assets/curso/temas/tema_5/img_16.png', class="img-fluid d-none d-lg-block mb-3")
           img(src='@/assets/curso/temas/tema_5/img_17.png', class="img-fluid d-block d-lg-none mb-3")
-          figcaption(data-aos="zoom-in-right") <b>Fuente.</b> SENA, 2025.
+          figcaption(data-aos="zoom-in-right") <b>Fuente:</b> SENA, 2025.
 </template>
 
 <script>

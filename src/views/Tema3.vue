@@ -23,7 +23,7 @@
             .indicador--hover(v-if="indicadorTarjetaSlide")
             .tarjeta-slide__contenedor
               .tarjeta-slide__contenido.p-4.p-xl-5
-                p.mb-0 <B>Monitoreo en tiempo real:</B> profundizar en el uso de <I>GPS</I> avanzado, telemática, <I>IoT</I> (Internet de las Cosas) para la recolección de datos en vivo. Explicar cómo los sensores (temperatura, humedad, vibración, apertura de puertas) proveen información crítica para la integridad de la carga.
+                p.mb-0 <B>Monitoreo en tiempo real:</B> 
               .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema_3/img_2.png')})`}")
         .col-12.col-sm-6.col-xl-3.mb-lg-0.mb-3.d-flex(data-aos="zoom-in-up")
           .tarjeta.tarjeta-slide.arriba.color-acento-contenido-20.h-100.w-100.d-flex.flex-column(@mouseover="indicadorTarjetaSlide = false")
@@ -142,7 +142,7 @@
           .tarjeta.color-primario-20.p-4.h-100.tarjeta-tabs-a__tarjeta(titulo="Interoperabilidad y <I>APIs</I>")
             .row.justify-content-center.align-items-center.mb-0
               .col-12.col-lg-8.order-2.order-lg-1.mb-0
-                p.mb-0 discutir el rol de las APIs (Application Programming Interfaces) en la facilitación de la comunicación entre diferentes sistemas y la importancia de estándares de datos.
+                p.mb-0 discutir el rol de las <i>APIs (Application Programming Interfaces)</i> en la facilitación de la comunicación entre diferentes sistemas y la importancia de estándares de datos.
               .col-6.col-lg-4.order-1.order-lg-2.mb-lg-0.mb-3
                 figure
                   img(src='@/assets/curso/temas/tema_3/img_16.png', class="img-fluid")

@@ -119,7 +119,7 @@
         figure(data-aos="zoom-in-right")
           img(src='@/assets/curso/temas/tema_1/img_12.svg', class="img-fluid d-none d-lg-block mb-3")
           img(src='@/assets/curso/temas/tema_1/img_13.svg', class="img-fluid d-block d-lg-none mb-3")
-          figcaption(data-aos="zoom-in-right") <b>Fuente.</b> SENA, 2025.
+          figcaption(data-aos="zoom-in-right") <b>Fuente:</b> SENA, 2025.
      
 
 
