@@ -232,11 +232,6 @@ export default {
         'Sistema de navegación por satélite que proporciona la ubicación, velocidad y hora en cualquier lugar de la Tierra. Es la base para la geolocalización de activos en el transporte.',
     },
     {
-      termino: '<em>GPS (Global Positioning System)</em>',
-      significado:
-        'Sistema de navegación por satélite que proporciona la ubicación, velocidad y hora en cualquier lugar de la Tierra. Es la base para la geolocalización de activos en el transporte.',
-    },
-    {
       termino: '<em>KPI (Key Performance Indicator)</em>',
       significado:
         'indicador clave de desempeño. Es una métrica cuantificable que se utiliza para evaluar la eficiencia y la efectividad con la que se están logrando los objetivos preestablecidos en las operaciones de transporte.',
@@ -269,7 +264,7 @@ export default {
     {
       termino: '<em>TMS (Transportation Management System)</em>',
       significado:
-        '<em>Software</em> que optimiza y gestiona los procesos de planificación, ejecución y auditoría de los movimientos de mercancías en una cadena de suministro, incluyendo la optimización de rutas y la selección de transportistas.',
+        '<em>software</em> que optimiza y gestiona los procesos de planificación, ejecución y auditoría de los movimientos de mercancías en una cadena de suministro, incluyendo la optimización de rutas y la selección de transportistas.',
     },
     {
       termino: 'Torre de Control (Logística)',
@@ -288,6 +283,11 @@ export default {
     },
   ],
   referencias: [
+    {
+      referencia:
+        'Agencia Nacional de Infraestructura (ANI). (2018). <i>Plan Nacional de Logística. Bogotá, Colombia</i>: Autor.',
+      link: '',
+    },
     {
       referencia:
         'Consejo Colombiano de Seguridad. (2021). <i>Guía del sistema de seguridad, salud en el trabajo y ambiente para contratistas del sector transporte RUC®.</i> Autor.',

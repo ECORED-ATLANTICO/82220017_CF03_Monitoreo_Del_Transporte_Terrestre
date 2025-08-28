@@ -89,7 +89,7 @@
                   .col-10.col-lg-7.mb-3
                     figure
                       img(src='@/assets/curso/temas/tema_1/img_7.svg', class="img-fluid")
-                  p.mb-0.text-center Minimizar los tiempos de espera en puntos de carga/descarga y los costos asociados.
+                  p.mb-0.text-center Minimizar los tiempos de espera en puntos de carga / descarga y los costos asociados.
               .tarjeta--color-primario-5.h-100 
                 .row.justify-content-center.align-items-center.mb-3
                   .col-10.col-lg-7.mb-3
@@ -117,8 +117,8 @@
           h5 Figura 1.
           |    Planificación de frecuencias y horarios
         figure(data-aos="zoom-in-right")
-          img(src='@/assets/curso/temas/tema_1/img_12.svg', class="img-fluid d-none d-lg-block mb-3" alt="Frecuencias y horarios. La frecuencia determina la periodicidad de los viajes, mientras que los horarios establecen las ventanas de tiempo precisas para la salida de los vehículos, las llegadas a puntos intermedios y las entregas finales. Una planificación precisa de frecuencias y horarios es vital para: Maximizar la utilización de la flota y la fuerza laboral, evitando tiempos muertos. Minimizar los tiempos de espera en puntos de carga/descarga y los costos asociados. Garantizar el cumplimiento de las ventanas de entrega pactadas con los clientes, un factor clave de satisfacción. Sincronizar eficientemente con otros nodos de la cadena de suministro, como almacenes, centros de distribución o puertos. Gestionar el impacto de la congestión vial y evitar restricciones horarias en zonas urbanas.")
-          img(src='@/assets/curso/temas/tema_1/img_13.svg', class="img-fluid d-block d-lg-none mb-3" alt="Frecuencias y horarios. La frecuencia determina la periodicidad de los viajes, mientras que los horarios establecen las ventanas de tiempo precisas para la salida de los vehículos, las llegadas a puntos intermedios y las entregas finales. Una planificación precisa de frecuencias y horarios es vital para: Maximizar la utilización de la flota y la fuerza laboral, evitando tiempos muertos. Minimizar los tiempos de espera en puntos de carga/descarga y los costos asociados. Garantizar el cumplimiento de las ventanas de entrega pactadas con los clientes, un factor clave de satisfacción. Sincronizar eficientemente con otros nodos de la cadena de suministro, como almacenes, centros de distribución o puertos. Gestionar el impacto de la congestión vial y evitar restricciones horarias en zonas urbanas.")
+          img(src='@/assets/curso/temas/tema_1/img_12.svg', class="img-fluid d-none d-lg-block mb-3" alt="En la figura 1 se ilustra el esquema de planificación de frecuencias y horarios, herramienta para lograr la precisión y optimizar viajes y entregas. Sus componentes son:· Utilización de la flota y la fuerza laboral. · Minimización de costos. · Satisfacción del cliente. · Sincronización de la cadena de suministro. · Gestión de la congestión.")
+          img(src='@/assets/curso/temas/tema_1/img_13.svg', class="img-fluid d-block d-lg-none mb-3" alt="En la figura 1 se ilustra el esquema de planificación de frecuencias y horarios, herramienta para lograr la precisión y optimizar viajes y entregas. Sus componentes son:· Utilización de la flota y la fuerza laboral. · Minimización de costos. · Satisfacción del cliente. · Sincronización de la cadena de suministro. · Gestión de la congestión.")
           figcaption(data-aos="zoom-in-right") <b>Fuente:</b> SENA, 2025.
      
 

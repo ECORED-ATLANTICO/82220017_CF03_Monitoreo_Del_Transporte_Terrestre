@@ -11,7 +11,7 @@
       .bloque-texto-t__img.mb-0
         img(src='@/assets/curso/temas/tema_2/img_1.png')
       .bloque-texto-t__texto.color-adicional-gradient.col-10.mb-0
-        p.mb-0 Para una operación de transporte efectiva, las técnicas de monitoreo deben ser activas. No se trata solo de saber dónde está un vehículo, sino de comprender su estado, su ruta, su carga y las condiciones en las que operación
+        p.mb-0 Para una operación de transporte efectiva, las técnicas de monitoreo deben ser activas. No se trata solo de saber dónde está un vehículo, sino de comprender su estado, su ruta, su carga y <i><b>las condiciones en las que opera.</b></i>.
     
     .bg_img_3.mb-3
 
@@ -54,7 +54,7 @@
                 .info-cards-container
                   .info-card(data-card="1")
                     .card-header
-                      h5.mb-0 Datos de posición y trayectoria (<i>GPS/GNSS</i>)
+                      h5.mb-0 Datos de posición y trayectoria (<i>GPS / GNSS</i>)
                     .card-content.text-small
                       p.mb-0.mt-5 <B>Coordenadas geográficas:</B> latitud, longitud y altitud para una ubicación precisa.
                       p.mb-0 <B>Velocidad y dirección:</B> crucial para el análisis de rutas, tiempos de llegada estimados <I>(ETA)</I> y detección de desviaciones.
@@ -67,9 +67,9 @@
                     .card-content
                       p.mb-0.mt-3 Estos sensores proporcionan información vital sobre el estado del vehículo y la carga.
                       p.mb-0 <B>Sensores de combustible:</B> nivel de combustible, consumo en tiempo real, detección de robos o fugas.
-                      p.mb-0 <B>Sensores de temperatura y humedad:</B> indispensables para el transporte de carga sensible (farmacéuticos, alimentos perecederos), asegurando la cadena de frío/calor.
-                      p.mb-0 <B>Sensores de apertura/cierre de puertas:</B> notificaciones sobre accesos no autorizados a la carga o compartimentos del vehículo.
-                      p.mb-0 <B>Sensores de vibración/Impacto:</B> detección de manejo brusco, accidentes o golpes a la carga.
+                      p.mb-0 <B>Sensores de temperatura y humedad:</B> indispensables para el transporte de carga sensible (farmacéuticos, alimentos perecederos), asegurando la cadena de frío / calor.
+                      p.mb-0 <B>Sensores de apertura / cierre de puertas:</B> notificaciones sobre accesos no autorizados a la carga o compartimentos del vehículo.
+                      p.mb-0 <B>Sensores de vibración / impacto:</B> detección de manejo brusco, accidentes o golpes a la carga.
                       p.mb-0 <B>Sensores de presión de neumáticos <I>(TPMS)</I>:</B> monitoreo de la presión y temperatura de los neumáticos para prevenir fallas y optimizar el consumo de combustible
                     .numero-circulo 2
                   .info-card(data-card="3")
@@ -129,9 +129,9 @@
           .row.justify-content-center.align-items-center
             .col-12.col-lg-6.order-2.order-lg-1.mb-0
               h5 Generación de informes y auditoría
-              p.mb-3 <B>Informes programados y demanda:</B> creación de reportes sobre el rendimiento de la flota, comportamiento de los conductores, cumplimiento de rutas, consumo de combustible, y eventos de seguridad.
-              p.mb-3 <B>Trazabilidad completa:</B> capacidad para reconstruir el historial de cualquier viaje, vehículo o carga en detalle, lo cual es invaluable para la resolución de disputas, reclamaciones de seguros y auditorías internas/externas.
-              p.mb-0 <B>Análisis de desviaciones y excepciones:</B> identificación de patrones y causas de problemas recurrentes (retrasos, daños a la carga, consumo excesivo).
+              p.mb-3 <B>• Informes programados y demanda:</B> creación de reportes sobre el rendimiento de la flota, comportamiento de los conductores, cumplimiento de rutas, consumo de combustible, y eventos de seguridad.
+              p.mb-3 <B>• Trazabilidad completa:</B> capacidad para reconstruir el historial de cualquier viaje, vehículo o carga en detalle, lo cual es invaluable para la resolución de disputas, reclamaciones de seguros y auditorías internas/externas.
+              p.mb-0 <B>• Análisis de desviaciones y excepciones:</B> identificación de patrones y causas de problemas recurrentes (retrasos, daños a la carga, consumo excesivo).
             .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
               figure
                 img(src='@/assets/curso/temas/tema_2/img_7.png', class="img-fluid")
@@ -139,7 +139,7 @@
             .col-12.col-lg-6.order-2.order-lg-1.mb-0
               h5 Integración con otros sistemas
               p.mb-3 <B>• Sistemas de planificación de rutas <i>(RPS)</i>:</B> retroalimentación para optimizar rutas futuras basándose en datos reales de tráfico y tiempos de entrega.
-              p.mb-3 <B>• Sistemas de gestión de almacenes <i>(WMS)</i>:</B> coordinación de la llegada de vehículos y la disponibilidad de carga/descarga.
+              p.mb-3 <B>• Sistemas de gestión de almacenes <i>(WMS)</i>:</B> coordinación de la llegada de vehículos y la disponibilidad de carga / descarga.
               p.mb-3 <B>• Sistemas de gestión de flota <i>(FMS)</i>:</B> integración de datos de mantenimiento, consumo y rendimiento para una gestión integral.
               p.mb-0 <B>• Sistemas <i>ERP/TMS</i>:</B> centralización de la información logística y financiera para una visión unificada de la cadena de suministro.            
             .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
@@ -148,10 +148,10 @@
           .row.justify-content-center.align-items-center
             .col-12.col-lg-6.order-2.order-lg-1.mb-0
               h5 Análisis predictivo y prescriptivo
-              p.mb-3 <B>Sistemas de planificación de rutas <i>(RPS)</i>:</B> retroalimentación para optimizar rutas futuras basándose en datos reales de tráfico y tiempos de entrega.
-              p.mb-3 <B>Sistemas de gestión de almacenes <i>(WMS)</i>:</B> coordinación de la llegada de vehículos y la disponibilidad de carga/descarga.
-              p.mb-3 <B>Sistemas de gestión de flota <i>(FMS)</i>:</B> integración de datos de mantenimiento, consumo y rendimiento para una gestión integral.
-              p.mb-0 <B>Sistemas <i>ERP/TMS</i>:</B> centralización de la información logística y financiera para una visión unificada de la cadena de suministro.
+              p.mb-3 <B>• Sistemas de planificación de rutas <i>(RPS)</i>:</B> retroalimentación para optimizar rutas futuras basándose en datos reales de tráfico y tiempos de entrega.
+              p.mb-3 <B>• Sistemas de gestión de almacenes <i>(WMS)</i>:</B> coordinación de la llegada de vehículos y la disponibilidad de carga / descarga.
+              p.mb-3 <B>• Sistemas de gestión de flota <i>(FMS)</i>:</B> integración de datos de mantenimiento, consumo y rendimiento para una gestión integral.
+              p.mb-0 <B>• Sistemas <i>ERP/TMS</i>:</B> centralización de la información logística y financiera para una visión unificada de la cadena de suministro.
             .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
               figure
                 img(src='@/assets/curso/temas/tema_2/img_9.png', class="img-fluid")

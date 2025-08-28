@@ -191,7 +191,7 @@
                 .tarjeta-numerada__numero
                   figure
                     img(src='@/assets/curso/temas/tema_3/img_20.png', class="img-fluid")
-                p.mb-0 <B>Capacitación y Desarrollo:</B> Resaltar la necesidad de un programa de capacitación sistemático para el personal involucrado en el uso de estos sistemas, asegurando que comprendan su funcionamiento y cómo contribuir a la mejora continua.
+                p.mb-0 <B>Capacitación y desarrollo:</B> Resaltar la necesidad de un programa de capacitación sistemático para el personal involucrado en el uso de estos sistemas, asegurando que comprendan su funcionamiento y cómo contribuir a la mejora continua.
         .col-8.col-lg-3.order-1.order-lg-2.mb-lg-0.mb-4(data-aos="zoom-in-right")
           figure
             img(src='@/assets/curso/temas/tema_3/img_21.png', class="img-fluid")
