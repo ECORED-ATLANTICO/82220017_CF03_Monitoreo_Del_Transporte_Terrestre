@@ -77,64 +77,64 @@
             figure
               img(src='@/assets/curso/temas/tema_5/img_8.png', class="img-fluid")
           .col-12.col-lg-8.mb-0
-            ul
-              li.mb-3.border-bottom.border-dashed.pb-2
-                i.fa-solid.fa-circle-check(style="color: #FF9854; font-size: 15px").mb-0
-                |  <B>Fiabilidad de la entrega</B> <I>(On-Time Delivery - OTD):</I> porcentaje de entregas realizadas dentro de la ventana de tiempo acordada.
-              li.mb-3.border-bottom.border-dashed.pb-2
-                i.fa-solid.fa-circle-check(style="color: #FF9854; font-size: 15px").mb-0
-                |  <B>Integridad de la carga:</B> porcentaje de entregas sin daños, pérdidas o mermas.
-              li.mb-3.border-bottom.border-dashed.pb-2
-                i.fa-solid.fa-circle-check(style="color: #FF9854; font-size: 15px").mb-0
-                |  <B>Tiempo de respuesta a consultas/reclamos:</B> promedio de tiempo para atender y resolver las inquietudes del cliente.
-              li.mb-3.border-bottom.border-dashed.pb-2
-                i.fa-solid.fa-circle-check(style="color: #FF9854; font-size: 15px").mb-0
-                |  <B>Índice de reclamos:</B> número de quejas por cada "X" envíos o servicios.
-              li.mb-0
-                i.fa-solid.fa-circle-check(style="color: #FF9854; font-size: 15px").mb-0
-                |  <B>Satisfacción del cliente <I>(CSAT/NPS):</I></B> medido a través de encuestas o <I>Net Promoter Score</I>, reflejando la percepción general.
+            ul.list-unstyled
+              li.d-flex.align-items-start.mb-3.border-bottom.border-dashed.pb-2
+                i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FF9854; font-size: 15px; line-height: 1.5;").mb-0
+                span <B>Fiabilidad de la entrega</B> <I>(On-Time Delivery - OTD):</I> porcentaje de entregas realizadas dentro de la ventana de tiempo acordada.
+              li.d-flex.align-items-start.mb-3.border-bottom.border-dashed.pb-2
+                i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FF9854; font-size: 15px; line-height: 1.5;").mb-0
+                span <B>Integridad de la carga:</B> porcentaje de entregas sin daños, pérdidas o mermas.
+              li.d-flex.align-items-start.mb-3.border-bottom.border-dashed.pb-2
+                i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FF9854; font-size: 15px; line-height: 1.5;").mb-0
+                span <B>Tiempo de respuesta a consultas/reclamos:</B> promedio de tiempo para atender y resolver las inquietudes del cliente.
+              li.d-flex.align-items-start.mb-3.border-bottom.border-dashed.pb-2
+                i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FF9854; font-size: 15px; line-height: 1.5;").mb-0
+                span <B>Índice de reclamos:</B> número de quejas por cada "X" envíos o servicios.
+              li.d-flex.align-items-start.mb-0
+                i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FF9854; font-size: 15px; line-height: 1.5;").mb-0
+                span <B>Satisfacción del cliente <I>(CSAT/NPS):</I></B> medido a través de encuestas o <I>Net Promoter Score</I>, reflejando la percepción general.
         .row.justify-content-center.align-items-center
           .col-12.col-lg-3.mb-lg-0.mb-3
             figure
               img(src='@/assets/curso/temas/tema_5/img_9.png', class="img-fluid")
           .col-12.col-lg-8.mb-0
-            ul
-              li.mb-3.border-bottom.border-dashed.pb-2
-                i.fa-solid.fa-circle-check(style="color: #FF9854; font-size: 15px").mb-0
-                |  <B>Precisión de la información:</B> errores en la documentación, facturación o seguimiento.
-              li.mb-3.border-bottom.border-dashed.pb-2
-                i.fa-solid.fa-circle-check(style="color: #FF9854; font-size: 15px").mb-0
-                |  <B>Profesionalismo del personal:</B> evaluación de la conducta y el servicio del conductor y el personal de soporte.
-              li.mb-3.border-bottom.border-dashed.pb-2
-                i.fa-solid.fa-circle-check(style="color: #FF9854; font-size: 15px").mb-0
-                |  <B>Flexibilidad operacional:</B> capacidad de adaptarse a cambios de último minuto en la planificación.
-              li.mb-3.border-bottom.border-dashed.pb-2
-                i.fa-solid.fa-circle-check(style="color: #FF9854; font-size: 15px").mb-0
-                |  <B>Procedimiento para la evaluación de la calidad del servicio:</B> para garantizar una evaluación sistemática y accionable de la calidad, se implementan procedimientos que pueden incluir:
-              li.mb-0
-                i.fa-solid.fa-circle-check(style="color: #FF9854; font-size: 15px").mb-0
-                |  <B>Implementación de encuestas de satisfacción:</B> encuestas post-servicio, llamadas de seguimiento, o formularios web para recopilar directo del cliente.
+            ul.list-unstyled
+              li.d-flex.align-items-start.mb-3.border-bottom.border-dashed.pb-2
+                i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FF9854; font-size: 15px; line-height: 1.5;").mb-0
+                span <B>Precisión de la información:</B> errores en la documentación, facturación o seguimiento.
+              li.d-flex.align-items-start.mb-3.border-bottom.border-dashed.pb-2
+                i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FF9854; font-size: 15px; line-height: 1.5;").mb-0
+                span <B>Profesionalismo del personal:</B> evaluación de la conducta y el servicio del conductor y el personal de soporte.
+              li.d-flex.align-items-start.mb-3.border-bottom.border-dashed.pb-2
+                i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FF9854; font-size: 15px; line-height: 1.5;").mb-0
+                span <B>Flexibilidad operacional:</B> capacidad de adaptarse a cambios de último minuto en la planificación.
+              li.d-flex.align-items-start.mb-3.border-bottom.border-dashed.pb-2
+                i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FF9854; font-size: 15px; line-height: 1.5;").mb-0
+                span <B>Procedimiento para la evaluación de la calidad del servicio:</B> para garantizar una evaluación sistemática y accionable de la calidad, se implementan procedimientos que pueden incluir:
+              li.d-flex.align-items-start.mb-0
+                i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FF9854; font-size: 15px; line-height: 1.5;").mb-0
+                span <B>Implementación de encuestas de satisfacción:</B> encuestas post-servicio, llamadas de seguimiento, o formularios web para recopilar directo del cliente.
         .row.justify-content-center.align-items-center
           .col-12.col-lg-3.mb-lg-0.mb-3
             figure
               img(src='@/assets/curso/temas/tema_5/img_10.png', class="img-fluid")
           .col-12.col-lg-8.mb-0
-            ul
-              li.mb-3.border-bottom.border-dashed.pb-2
-                i.fa-solid.fa-circle-check(style="color: #FF9854; font-size: 15px").mb-0
-                |  <B>Sistema de gestión de quejas y sugerencias:</B> : un proceso estandarizado para registrar, clasificar, investigar y resolver los reclamos de los clientes, y para capitalizar sus sugerencias de mejora.
-              li.mb-3.border-bottom.border-dashed.pb-2
-                i.fa-solid.fa-circle-check(style="color: #FF9854; font-size: 15px").mb-0
-                |  <B>Monitoreo continuo de <I>KPIs</I> de servicio:</B> uso del sistema de control y monitoreo para seguir en tiempo real indicadores como el <I>OTD</I>, tasa de daños o tiempo de resolución de incidencias.
-              li.mb-3.border-bottom.border-dashed.pb-2
-                i.fa-solid.fa-circle-check(style="color: #FF9854; font-size: 15px").mb-0
-                |  <B>Auditorías de servicio:</B> evaluaciones internas o externas de los procesos que impactan al cliente para asegurar el cumplimiento de los estándares de calidad.
-              li.mb-3.border-bottom.border-dashed.pb-2
-                i.fa-solid.fa-circle-check(style="color: #FF9854; font-size: 15px").mb-0
-                |  <B>Análisis de la voz del cliente:</B> recopilación y análisis de comentarios en redes sociales, foros o plataformas de reseñas para entender percepciones no solicitadas.
-              li.mb-0
-                i.fa-solid.fa-circle-check(style="color: #FF9854; font-size: 15px").mb-0
-                |  <B><I>Benchmarking</I> de servicio:</B> comparación del desempeño con los líderes del sector para identificar las mejores prácticas y áreas de oportunidad.
+            ul.list-unstyled
+              li.d-flex.align-items-start.mb-3.border-bottom.border-dashed.pb-2
+                i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FF9854; font-size: 15px; line-height: 1.5;").mb-0
+                span <B>Sistema de gestión de quejas y sugerencias:</B> : un proceso estandarizado para registrar, clasificar, investigar y resolver los reclamos de los clientes, y para capitalizar sus sugerencias de mejora.
+              li.d-flex.align-items-start.mb-3.border-bottom.border-dashed.pb-2
+                i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FF9854; font-size: 15px; line-height: 1.5;").mb-0
+                span <B>Monitoreo continuo de <I>KPIs</I> de servicio:</B> uso del sistema de control y monitoreo para seguir en tiempo real indicadores como el <I>OTD</I>, tasa de daños o tiempo de resolución de incidencias.
+              li.d-flex.align-items-start.mb-3.border-bottom.border-dashed.pb-2
+                i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FF9854; font-size: 15px; line-height: 1.5;").mb-0
+                span <B>Auditorías de servicio:</B> evaluaciones internas o externas de los procesos que impactan al cliente para asegurar el cumplimiento de los estándares de calidad.
+              li.d-flex.align-items-start.mb-3.border-bottom.border-dashed.pb-2
+                i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FF9854; font-size: 15px; line-height: 1.5;").mb-0
+                span <B>Análisis de la voz del cliente:</B> recopilación y análisis de comentarios en redes sociales, foros o plataformas de reseñas para entender percepciones no solicitadas.
+              li.d-flex.align-items-start.mb-0
+                i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FF9854; font-size: 15px; line-height: 1.5;").mb-0
+                span <B><I>Benchmarking</I> de servicio:</B> comparación del desempeño con los líderes del sector para identificar las mejores prácticas y áreas de oportunidad.
     <br><br>
     separador
 
@@ -167,8 +167,8 @@
           h5 Figura 3.
           |    Implementación y gestión
         figure(data-aos="zoom-in-right")
-          img(src='@/assets/curso/temas/tema_5/img_16.png', class="img-fluid d-none d-lg-block mb-3")
-          img(src='@/assets/curso/temas/tema_5/img_17.png', class="img-fluid d-block d-lg-none mb-3")
+          img(src='@/assets/curso/temas/tema_5/img_16.svg', class="img-fluid d-none d-lg-block mb-3")
+          img(src='@/assets/curso/temas/tema_5/img_17.svg', class="img-fluid d-block d-lg-none mb-3")
           figcaption(data-aos="zoom-in-right") <b>Fuente:</b> SENA, 2025.
 </template>
 

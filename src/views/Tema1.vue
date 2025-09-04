@@ -78,35 +78,30 @@
         .col-12.col-lg-8.order-2.order-lg-1
           .custom-slider.p-5.p-sm-3(data-aos="zoom-in-right")
             SlyderF(columnas="col-12 col-sm-6 col-md-6 col-lg-6").p-2.rounded-3
-              .tarjeta--color-primario-5.h-100 
+              .tarjeta--color-secundario-5.h-100 
                 .row.justify-content-center.align-items-center.mb-3
-                  .col-10.col-lg-7.mb-3
-                    figure
-                      img(src='@/assets/curso/temas/tema_1/img_6.svg', class="img-fluid")
+                  .col-8.mb-3
+                    .tarjeta--1
                   p.mb-0.text-center Maximizar la utilización de la flota y la fuerza laboral, evitando tiempos muertos.
-              .tarjeta--color-primario-5.h-100 
+              .tarjeta--color-secundario-5.h-100 
                 .row.justify-content-center.align-items-center.mb-3
-                  .col-10.col-lg-7.mb-3
-                    figure
-                      img(src='@/assets/curso/temas/tema_1/img_7.svg', class="img-fluid")
+                  .col-8.mb-3
+                    .tarjeta--2
                   p.mb-0.text-center Minimizar los tiempos de espera en puntos de carga / descarga y los costos asociados.
-              .tarjeta--color-primario-5.h-100 
+              .tarjeta--color-secundario-5.h-100 
                 .row.justify-content-center.align-items-center.mb-3
-                  .col-10.col-lg-7.mb-3
-                    figure
-                      img(src='@/assets/curso/temas/tema_1/img_8.svg', class="img-fluid")
+                  .col-8.mb-3
+                    .tarjeta--3
                   p.mb-0.text-center Garantizar el cumplimiento de las ventanas de entrega pactadas con los clientes, un factor clave de satisfacción.
-              .tarjeta--color-primario-5.h-100 
-                .row.justify-content-center.align-items-center.mb-3
-                  .col-10.col-lg-7.mb-3
-                    figure
-                      img(src='@/assets/curso/temas/tema_1/img_9.svg', class="img-fluid")
+              .tarjeta--color-secundario-5.h-100 
+                .row.justify-content-center.align-items-center.mb-
+                  .col-8.mb-3
+                    .tarjeta--4
                   p.mb-0.text-center Sincronizar eficientemente con otros nodos de la cadena de suministro, como almacenes, centros de distribución o puertos.
-              .tarjeta--color-primario-5.h-100 
+              .tarjeta--color-secundario-5.h-100 
                 .row.justify-content-center.align-items-center.mb-3
-                  .col-10.col-lg-7.mb-3
-                    figure
-                      img(src='@/assets/curso/temas/tema_1/img_10.svg', class="img-fluid")
+                  .col-8.mb-3
+                    .tarjeta--5
                   p.mb-0.text-center Gestionar el impacto de la congestión vial y evitar restricciones horarias en zonas urbanas.
         .col-8.col-lg-4.order-1.order-lg-2.mb-3.mb-lg-0(data-aos="zoom-in-right")
           figure(data-aos="zoom-out-up")

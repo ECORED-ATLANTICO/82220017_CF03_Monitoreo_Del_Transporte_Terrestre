@@ -18,28 +18,28 @@
     
     .bg_img_6.mb-4
       .row.justify-content-center.align-items-stretch.mb-5
-        .col-12.col-sm-6.col-xl-3.mb-lg-0.mb-3.d-flex(data-aos="zoom-in-left")
+        .col-12.col-sm-6.col-xl-3.mb-lx-0.mb-4.d-flex(data-aos="zoom-in-left")
           .tarjeta.tarjeta-slide.izquierda.color-acento-contenido-20.h-100.w-100.d-flex.flex-column(@mouseover="indicadorTarjetaSlide = false")
             .indicador--hover(v-if="indicadorTarjetaSlide")
             .tarjeta-slide__contenedor
               .tarjeta-slide__contenido.p-4.p-xl-5
                 p.mb-0 <B>Monitoreo en tiempo real:</B> 
               .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema_3/img_2.png')})`}")
-        .col-12.col-sm-6.col-xl-3.mb-lg-0.mb-3.d-flex(data-aos="zoom-in-up")
+        .col-12.col-sm-6.col-xl-3.mb-lx-0.mb-4.d-flex(data-aos="zoom-in-up")
           .tarjeta.tarjeta-slide.arriba.color-acento-contenido-20.h-100.w-100.d-flex.flex-column(@mouseover="indicadorTarjetaSlide = false")
             .indicador--hover(v-if="indicadorTarjetaSlide")
             .tarjeta-slide__contenedor
               .tarjeta-slide__contenido.p-4.p-xl-5
                 p.mb-0 <B>Tecnologías habilitadoras:</B> profundizar en el uso de <I>GPS</I> avanzado, telemática, <I>IoT</I> (Internet de las Cosas) para la recolección de datos en vivo. Explicar cómo los sensores (temperatura, humedad, vibración, apertura de puertas) proveen información crítica para la integridad de la carga.
               .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema_3/img_3.png')})`}")
-        .col-12.col-sm-6.col-xl-3.mb-lg-0.mb-3.d-flex(data-aos="zoom-in-down")
+        .col-12.col-sm-6.col-xl-3.mb-lx-0.mb-4.d-flex(data-aos="zoom-in-down")
           .tarjeta.tarjeta-slide.abajo.color-acento-contenido-20.h-100.w-100.d-flex.flex-column(@mouseover="indicadorTarjetaSlide = false")
             .indicador--hover(v-if="indicadorTarjetaSlide")
             .tarjeta-slide__contenedor
               .tarjeta-slide__contenido.p-4.p-xl-5
                 p.mb-0 <B>Visualización:</B> mostrar ejemplos de paneles de control interactivos que permitan a los operadores visualizar la ubicación de la flota, el estado de los envíos, las alertas activas y los <I>KPIs</I> en tiempo real.
               .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema_3/img_4.png')})`}")
-        .col-12.col-sm-6.col-xl-3.mb-lg-0.mb-3.d-flex(data-aos="zoom-in-right")
+        .col-12.col-sm-6.col-xl-3.mb-lx-0.mb-4.d-flex(data-aos="zoom-in-right")
           .tarjeta.tarjeta-slide.derecha.color-acento-contenido-20.h-100.w-100.d-flex.flex-column(@mouseover="indicadorTarjetaSlide = false")
             .indicador--hover(v-if="indicadorTarjetaSlide")
             .tarjeta-slide__contenedor
