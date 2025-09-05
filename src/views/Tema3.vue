@@ -6,9 +6,13 @@
       .titulo-principal__numero
         span 3
       h1 Procedimiento
+    
+    .row.justify-content-center.align-items-center.mb-5
       
-    p.mb-0 Consiste en supervisar, registrar y evaluar en tiempo real el desplazamiento de vehículos, la seguridad de la carga y el cumplimiento de rutas y tiempos, mediante tecnologías de rastreo, comunicación y controles periódicos. Incluye además la utilización de tecnologías de rastreo satelital, sistemas de comunicación y controles periódicos que facilitan la detección de desvíos, retrasos o incidentes en la operación y organización.
-
+      .col-12.col-lg-12
+        .cajon.color-secundario-5.p-4.mb-3(data-aos="zoom-in-right")
+          p.mb-0 Consiste en supervisar, registrar y evaluar en tiempo real el desplazamiento de vehículos, la seguridad de la carga y el cumplimiento de rutas y tiempos, mediante tecnologías de rastreo, comunicación y controles periódicos. Incluye además la utilización de tecnologías de rastreo satelital, sistemas de comunicación y controles periódicos que facilitan la detección de desvíos, retrasos o incidentes en la operación y organización.
+          
     separador
 
     #t_3_1.titulo-segundo.color-acento-contenido
@@ -27,7 +31,7 @@
             .indicador--hover(v-if="indicadorTarjetaSlide")
             .tarjeta-slide__contenedor
               .tarjeta-slide__contenido.p-4.p-xl-5
-                p.mb-0 <B>Monitoreo en tiempo real:</B> 
+                p.mb-0 <B>Monitoreo en tiempo real:</B> a través de tecnologías de rastreo satelital, sistemas de comunicación y plataformas digitales, este proceso facilita la detección oportuna de desvíos, retrasos o incidentes, contribuyendo a una gestión logística más eficiente, segura y confiable.
               .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema_3/img_2.png')})`}")
         .col-12.col-sm-6.col-xl-3.mb-lx-0.mb-4.d-flex(data-aos="zoom-in-up")
           .tarjeta.tarjeta-slide.arriba.color-acento-contenido-20.h-100.w-100.d-flex.flex-column(@mouseover="indicadorTarjetaSlide = false")

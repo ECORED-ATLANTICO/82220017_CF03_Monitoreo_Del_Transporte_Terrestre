@@ -6,9 +6,14 @@
       .titulo-principal__numero
         span 5
       h1 Calidad del servicio.
+    .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in-right")
+        .bloque-texto-g__img(
+          :style="{'background-image': `url(${require('@/assets/curso/temas/tema_5/img_1.png')})`}"
+        )
+        .bloque-texto-g__texto.p-4
+          p.mb-0 La calidad del servicio no solo implica el uso de tecnologías avanzadas de rastreo y comunicación en tiempo real, sino también la eficiencia en la supervisión de rutas, la seguridad de la carga y la atención inmediata ante eventualidades. La calidad se refleja en la reducción de riesgos, el cumplimiento de tiempos de entrega y la generación de confianza en los usuarios, aspectos que fortalecen la competitividad y la sostenibilidad de las organizaciones dentro del sector del transporte.
 
-    p.mb-0 Se define como la capacidad de una empresa para no solo cumplir, sino idealmente superar, las expectativas de sus clientes en relación con el movimiento de su carga o el servicio de traslado de pasajeros, abarca la totalidad de la experiencia del cliente, desde el primer contacto y la cotización hasta el momento post-entrega, buscando generar valor, fomentar la lealtad y construir una reputación sólida en el mercado. En un sistema de control y monitoreo, la calidad del servicio es un resultado directo de la eficiencia y la seguridad de los procesos.
-
+   
     separador
 
     .bg_img_9.mb-3
@@ -17,14 +22,8 @@
         .h2(data-aos="fade-right") 5.1. Concepto
       .mb-3
       
-      .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in-right")
-        .bloque-texto-g__img(
-          :style="{'background-image': `url(${require('@/assets/curso/temas/tema_5/img_1.png')})`}"
-        )
-        .bloque-texto-g__texto.p-4
-          p.mb-0 Se define como la capacidad de una empresa para no solo cumplir, sino idealmente superar, las expectativas de sus clientes en relación con el movimiento de su carga o el servicio de traslado de pasajeros, abarca la totalidad de la experiencia del cliente, desde el primer contacto y la cotización hasta el momento post-entrega, buscando generar valor, fomentar la lealtad y construir una reputación sólida en el mercado. 
-          p.mb-0 En un sistema de control y monitoreo, la calidad del servicio es un resultado directo de la eficiencia y la seguridad de los procesos.
-      
+        p.mb-0 Se define como la capacidad de una empresa para no solo cumplir, sino idealmente superar, las expectativas de sus clientes en relación con el movimiento de su carga o el servicio de traslado de pasajeros, abarca la totalidad de la experiencia del cliente, desde el primer contacto y la cotización hasta el momento post-entrega, buscando generar valor, fomentar la lealtad y construir una reputación sólida en el mercado. En un sistema de control y monitoreo, la calidad del servicio es un resultado directo de la eficiencia y la seguridad de los procesos.
+    
       .row.justify-content-center.align-items-stretch.mb-3
         .col-12.col-lg-10.mb-3(data-aos="zoom-in-right")
           p.mb-3 Se centra en varios pilares:
@@ -159,10 +158,10 @@
       h5 Figura 2.
       |    Pasos del procedimiento de calidad de servicio
     figure.mb-5(data-aos="zoom-in-right")
-      img(src='@/assets/curso/temas/tema_5/img_12.png', class="img-fluid d-none d-lg-block mb-3")
-      img(src='@/assets/curso/temas/tema_5/img_13.png', class="img-fluid d-block d-lg-none mb-3")
-      img(src='@/assets/curso/temas/tema_5/img_14.png', class="img-fluid d-block d-lg-none mb-3")
-      img(src='@/assets/curso/temas/tema_5/img_15.png', class="img-fluid d-block d-lg-none mb-3")
+      img(src='@/assets/curso/temas/tema_5/img_12.png', class="img-fluid d-none d-lg-block mb-3" Alt="La figura muestra el paso a paso para la implementación y la gestión para la implementación y gestión de un procedimiento  de calidad de servicio. Selección de tecnología: elección de soluciones de hardware y software. Instalación de hardware: implementación de dispositivos en vehículos. Configuración del software: establecimiento de parámetros y análisis de datos. Capacitación del personal: capacitaciones de operadores, despachadores y analistas. Gestión de datos: aseguramiento de la calidad y seguridad de los datos.")
+      img(src='@/assets/curso/temas/tema_5/img_13.png', class="img-fluid d-block d-lg-none mb-3" Alt="La figura muestra el paso a paso para la implementación y la gestión para la implementación y gestión de un procedimiento  de calidad de servicio. Selección de tecnología: elección de soluciones de hardware y software. Instalación de hardware: implementación de dispositivos en vehículos. Configuración del software: establecimiento de parámetros y análisis de datos. Capacitación del personal: capacitaciones de operadores, despachadores y analistas. Gestión de datos: aseguramiento de la calidad y seguridad de los datos.")
+      img(src='@/assets/curso/temas/tema_5/img_14.png', class="img-fluid d-block d-lg-none mb-3" Alt="La figura muestra el paso a paso para la implementación y la gestión para la implementación y gestión de un procedimiento  de calidad de servicio. Selección de tecnología: elección de soluciones de hardware y software. Instalación de hardware: implementación de dispositivos en vehículos. Configuración del software: establecimiento de parámetros y análisis de datos. Capacitación del personal: capacitaciones de operadores, despachadores y analistas. Gestión de datos: aseguramiento de la calidad y seguridad de los datos.")
+      img(src='@/assets/curso/temas/tema_5/img_15.png', class="img-fluid d-block d-lg-none mb-3" Alt="La figura muestra el paso a paso para la implementación y la gestión para la implementación y gestión de un procedimiento  de calidad de servicio. Selección de tecnología: elección de soluciones de hardware y software. Instalación de hardware: implementación de dispositivos en vehículos. Configuración del software: establecimiento de parámetros y análisis de datos. Capacitación del personal: capacitaciones de operadores, despachadores y analistas. Gestión de datos: aseguramiento de la calidad y seguridad de los datos.")
       figcaption(data-aos="zoom-in-right") <b>Fuente:</b> SENA, 2025.
 
     .row.justify-content-center.align-items-center.mb-0
@@ -171,8 +170,8 @@
           h5 Figura 3.
           |    Implementación y gestión
         figure(data-aos="zoom-in-right")
-          img(src='@/assets/curso/temas/tema_5/img_16.svg', class="img-fluid d-none d-lg-block mb-3")
-          img(src='@/assets/curso/temas/tema_5/img_17.svg', class="img-fluid d-block d-lg-none mb-3")
+          img(src='@/assets/curso/temas/tema_5/img_16.svg', class="img-fluid d-none d-lg-block mb-3" Alt="La figura muestra Implementación y gestión.")
+          img(src='@/assets/curso/temas/tema_5/img_17.svg', class="img-fluid d-block d-lg-none mb-3" Alt="La figura muestra Implementación y gestión.")
           figcaption(data-aos="zoom-in-right") <b>Fuente:</b> SENA, 2025.
 </template>
 
