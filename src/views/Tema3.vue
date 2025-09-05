@@ -6,6 +6,10 @@
       .titulo-principal__numero
         span 3
       h1 Procedimiento
+      
+    p.mb-0 Consiste en supervisar, registrar y evaluar en tiempo real el desplazamiento de vehículos, la seguridad de la carga y el cumplimiento de rutas y tiempos, mediante tecnologías de rastreo, comunicación y controles periódicos. Incluye además la utilización de tecnologías de rastreo satelital, sistemas de comunicación y controles periódicos que facilitan la detección de desvíos, retrasos o incidentes en la operación y organización.
+
+    separador
 
     #t_3_1.titulo-segundo.color-acento-contenido
       .h2(data-aos="fade-right") 3.1 Proceso continuo

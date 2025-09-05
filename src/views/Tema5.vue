@@ -7,6 +7,10 @@
         span 5
       h1 Calidad del servicio.
 
+    p.mb-0 Se define como la capacidad de una empresa para no solo cumplir, sino idealmente superar, las expectativas de sus clientes en relación con el movimiento de su carga o el servicio de traslado de pasajeros, abarca la totalidad de la experiencia del cliente, desde el primer contacto y la cotización hasta el momento post-entrega, buscando generar valor, fomentar la lealtad y construir una reputación sólida en el mercado. En un sistema de control y monitoreo, la calidad del servicio es un resultado directo de la eficiencia y la seguridad de los procesos.
+
+    separador
+
     .bg_img_9.mb-3
     
       #t_5_1.titulo-segundo.color-acento-contenido
