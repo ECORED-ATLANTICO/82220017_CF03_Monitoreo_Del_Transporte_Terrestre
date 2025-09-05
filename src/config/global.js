@@ -193,14 +193,15 @@ export default {
     {
       tema: 'Calidad del servicio',
       referencia:
-        'Ministerio de Transporte. (2023). <i>Guía de buenas prácticas para la calidad en el transporte terrestre de carga.</i>',
+        'Secretaria Distrital de Movilidad. (2021). <i>Guía de Buenas Prácticas. Cargue y Descargue de Mercancías en Bogotá D.C.</i>',
       tipo: 'Manual PDF',
-      link: 'http://www.ejemplo.gob.co/docs/guia_calidad_transporte.pdf',
+      link:
+        'https://www.simur.gov.co/sites/simur.gov.co/files/2021-06-16/basico/Buenas_Practicas_carga_descarga_Bogota__0.pdf',
     },
     {
       tema: 'Técnica de monitoreo',
       referencia:
-        'SafeLink Group. (2024, 15 de mayo). <i>¿En qué consiste el monitoreo del transporte de carga? [Video].</i> YouTube',
+        'SafeLink Group. (2024, 15 de mayo). <i>¿En qué consiste el monitoreo del transporte de carga?</i> [Video]. YouTube',
       tipo: 'Video',
       link: 'http://www.youtube.com/watch?v=2fRlvzsXpsg',
     },
