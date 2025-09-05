@@ -27,38 +27,38 @@
       .row.justify-content-center.align-items-stretch.mb-3
         .col-12.col-lg-10.mb-3(data-aos="zoom-in-right")
           p.mb-3 Se centra en varios pilares:
-        .col-12.col-lg-3.mb-3(data-aos="zoom-in-right")
-          .tarjeta-numerada.color-acento-botones.pt-3.pb-3.ps-5.pe-3 
+        .col-12.col-lg-4.col-xl-3.mb-3(data-aos="zoom-in-right")
+          .tarjeta-numerada.color-acento-botones.pt-3.pb-3.ps-5.pe-3.h-100.d-flex.flex-column.align-items-center
             .tarjeta-numerada__numero.mx-auto
               figure
                 img(src='@/assets/curso/temas/tema_5/img_2.png', class="img-fluid")
             p.mb-0 <B>Fiabilidad:</B> cumplir lo prometido de manera consistente (entregar a tiempo, en la cantidad correcta y en las condiciones esperadas).
-        .col-12.col-lg-3.mb-3(data-aos="zoom-in-right")
+        .col-12.col-lg-4.col-xl-3.mb-3(data-aos="zoom-in-right")
           .tarjeta-numerada.color-acento-botones.pt-3.pb-3.ps-5.pe-3.h-100.d-flex.flex-column.align-items-center
             .tarjeta-numerada__numero
               figure
                 img(src='@/assets/curso/temas/tema_5/img_3.png', class="img-fluid")
             p.mb-0 <B>Capacidad de respuesta:</B> rapidez y disposición para atender solicitudes, resolver problemas y adaptarse a imprevistos.
-        .col-12.col-lg-4.mb-3(data-aos="zoom-in-right")
-          .tarjeta-numerada.color-acento-botones.pt-3.pb-3.ps-5.pe-3.h-100 
+        .col-12.col-lg-4.col-xl-4.mb-3(data-aos="zoom-in-right")
+          .tarjeta-numerada.color-acento-botones.pt-3.pb-3.ps-5.pe-3.h-100.d-flex.flex-column.align-items-center
             .tarjeta-numerada__numero
               figure
                 img(src='@/assets/curso/temas/tema_5/img_4.png', class="img-fluid")
             p.mb-0 <B>Seguridad:</B> garantía de que la carga o los pasajeros llegarán sin daños, pérdidas o incidentes, y que se cumplen todas las normativas.
-        .col-12.col-lg-3.mb-3(data-aos="zoom-in-right")
-          .tarjeta-numerada.color-acento-botones.pt-3.pb-3.ps-5.pe-3.h-100 
+        .col-12.col-lg-4.col-xl-3.mb-3(data-aos="zoom-in-right")
+          .tarjeta-numerada.color-acento-botones.pt-3.pb-3.ps-5.pe-3.h-100.d-flex.flex-column.align-items-center
             .tarjeta-numerada__numero
               figure
                 img(src='@/assets/curso/temas/tema_5/img_5.png', class="img-fluid")
             p.mb-0 <B>Empatía:</B> atención personalizada, comprensión de las necesidades específicas del cliente y trato amable por parte del personal.
-        .col-12.col-lg-3.mb-3(data-aos="zoom-in-right")
-          .tarjeta-numerada.color-acento-botones.pt-3.pb-3.ps-5.pe-3.h-100 
+        .col-12.col-lg-4.col-xl-3.mb-3(data-aos="zoom-in-right")
+          .tarjeta-numerada.color-acento-botones.pt-3.pb-3.ps-5.pe-3.h-100.d-flex.flex-column.align-items-center
             .tarjeta-numerada__numero
               figure
                 img(src='@/assets/curso/temas/tema_5/img_6.png', class="img-fluid")
             p.mb-0 <B>Angibles:</B> la apariencia de los vehículos, equipos y el personal; la calidad de los documentos y la tecnología utilizada.
-        .col-12.col-lg-4.mb-3(data-aos="zoom-in-right")
-          .tarjeta-numerada.color-acento-botones.pt-3.pb-3.ps-5.pe-3.h-100 
+        .col-12.col-lg-4.col-lg-4.mb-3(data-aos="zoom-in-right")
+          .tarjeta-numerada.color-acento-botones.pt-3.pb-3.ps-5.pe-3.h-100.d-flex.flex-column.align-items-center
             .tarjeta-numerada__numero
               figure
                 img(src='@/assets/curso/temas/tema_5/img_7.png', class="img-fluid")
