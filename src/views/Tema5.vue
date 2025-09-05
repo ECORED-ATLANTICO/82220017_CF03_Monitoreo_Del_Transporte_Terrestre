@@ -170,8 +170,8 @@
           h5 Figura 3.
           |    Implementación y gestión
         figure(data-aos="zoom-in-right")
-          img(src='@/assets/curso/temas/tema_5/img_16.svg', class="img-fluid d-none d-lg-block mb-3" Alt="La figura muestra Implementación y gestión.")
-          img(src='@/assets/curso/temas/tema_5/img_17.svg', class="img-fluid d-block d-lg-none mb-3" Alt="La figura muestra Implementación y gestión.")
+          img(src='@/assets/curso/temas/tema_5/img_16.svg', class="img-fluid d-none d-lg-block mb-3" Alt="La figura muestra el paso a paso para la implementación y la gestión para la implementación y gestión de un procedimiento de calidad de servicio. Selección de tecnología: elección de soluciones de hardware y software. Instalación de hardware: implementación de dispositivos en vehículos. Configuración del software: establecimiento de parámetros y análisis de datos. Capacitación del personal: capacitaciones de operadores, despachadores y analistas. Gestión de datos: aseguramiento de la calidad y seguridad de los datos.")
+          img(src='@/assets/curso/temas/tema_5/img_17.svg', class="img-fluid d-block d-lg-none mb-3" Alt="La figura muestra el paso a paso para la implementación y la gestión para la implementación y gestión de un procedimiento de calidad de servicio. Selección de tecnología: elección de soluciones de hardware y software. Instalación de hardware: implementación de dispositivos en vehículos. Configuración del software: establecimiento de parámetros y análisis de datos. Capacitación del personal: capacitaciones de operadores, despachadores y analistas. Gestión de datos: aseguramiento de la calidad y seguridad de los datos.")
           figcaption(data-aos="zoom-in-right") <b>Fuente:</b> SENA, 2025.
 </template>
 
