@@ -258,7 +258,7 @@ export default {
         'La tecnología que permite la recopilación remota y la transmisión de datos operacionales de un activo (como un vehículo) a un sistema central para su análisis y gestión.',
     },
     {
-      termino: '<em>TIC (Tecnologías de la Información y Comunicación)</em>',
+      termino: 'TIC (Tecnologías de la Información y Comunicación)',
       significado:
         'Conjunto de herramientas y recursos tecnológicos que permiten crear, almacenar, procesar, gestionar, intercambiar y transmitir información, fundamentales para la digitalización del transporte.',
     },

@@ -116,7 +116,7 @@
                 span <B>Procedimiento para la evaluación de la calidad del servicio:</B> para garantizar una evaluación sistemática y accionable de la calidad, se implementan procedimientos que pueden incluir:
               li.d-flex.align-items-start.mb-0
                 i.fa-solid.fa-circle-check.me-2.flex-shrink-0(style="color: #FF9854; font-size: 15px; line-height: 1.5;").mb-0
-                span <B>Implementación de encuestas de satisfacción:</B> encuestas post-servicio, llamadas de seguimiento, o formularios web para recopilar directo del cliente.
+                span <B>Implementación de encuestas de satisfacción:</B> encuestas post-servicio, llamadas de seguimiento, o formularios <i>web</i> para recopilar directo del cliente.
         .row.justify-content-center.align-items-center
           .col-12.col-lg-3.mb-lg-0.mb-3
             figure
