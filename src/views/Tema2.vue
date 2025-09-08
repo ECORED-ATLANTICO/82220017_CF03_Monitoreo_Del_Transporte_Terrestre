@@ -31,8 +31,8 @@
           .cajon.color-secundario-5.p-4.mb-3(data-aos="zoom-in-right")
             p.mb-0 El sistema de monitoreo cuenta con los datos recolectados por parte de los dispositivos que se estén empleando, estos deben ser de calidad, relevancia y que sean oportunos en la toma de decisiones.
       
-      .row.justify-content-center.align-items-center
-        .col-12.col-lg-10.mb-3
+      .row.justify-content-center.align-items-center.mb-sm-0.mb-5
+        .col-12.col-lg-10.mb-sm-3.mb-5
           .gps-infografia-container
             .infografia-wrapper
               .imagen-container
@@ -51,7 +51,7 @@
                   .punto-numero 
                 label.punto-info(for="infografia-punto-5" style="top: 77.9%; left: 68.8%;")
                   .punto-numero 
-                .info-cards-container
+                .info-cards-container.mb-3
                   .info-card(data-card="1")
                     .card-header
                       h5.mb-0 Datos de posición y trayectoria (<i>GPS / GNSS</i>)
