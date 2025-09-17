@@ -65,7 +65,7 @@
       .h2(data-aos="fade-right") 4.2 Resultados de la ejecución
     .mb-3
 
-    p.mb-5 Se ven reflejados con base al desempeño real de la operación. utilizando Indicadores Clave de Rendimiento <I>(KPIs)</I> previamente definidos, comparándolos sistemáticamente con los objetivos, estándares o promedios históricos. Ejemplos de resultados y análisis que se incluyen:
+    p.mb-5 Se ven reflejados con base al desempeño real de la operación utilizando Indicadores Clave de Rendimiento (KPIs) previamente definidos, comparándolos sistemáticamente con los objetivos, estándares o promedios históricos. Ejemplos de resultados y análisis que se incluyen:
     .row.justify-content-center.align-items-stretch.mb-5
       .col-12.col-sm-6.col-xl-3.mb-lx-0.mb-4.d-flex(data-aos="zoom-in-left")
         .tarjeta.tarjeta-slide.izquierda.color-acento-contenido-20.h-100.w-100.d-flex.flex-column(@mouseover="indicadorTarjetaSlide = false")

@@ -12,7 +12,7 @@
         figure
           img(src='@/assets/curso/temas/tema_1/img_1.png', class="img-fluid") 
       .col-12.col-lg-8(data-aos="zoom-in-right")
-        p.mb-3 Es la arquitectura fundamental que define cómo se ejecutarán cada movimiento de carga o pasajero por carretera. Es un documento que fusiona la estrategia y la táctica, traduciendo los requerimientos logísticos de la cadena de suministro en acciones operativas concretas, con el fin primordial de optimizar el uso de recursos y garantizar el cumplimiento de los objetivos de servicio. Su alcance va desde la selección del tipo de vehículo más adecuado hasta la programación milimétrica de cada entrega o servicio.
+        p.mb-3 Es la arquitectura fundamental que define cómo se ejecutará cada movimiento de carga o pasajero por carretera. Es un documento que fusiona la estrategia y la táctica, traduciendo los requerimientos logísticos de la cadena de suministro en acciones operativas concretas, con el fin primordial de optimizar el uso de recursos y garantizar el cumplimiento de los objetivos de servicio. Su alcance va desde la selección del tipo de vehículo más adecuado hasta la programación milimétrica de cada entrega o servicio.
         p.mb-0 Los elementos esenciales de este plan, críticos para un sistema de control y monitoreo, incluyen:
 
     separador
@@ -59,7 +59,7 @@
               img(src='@/assets/curso/temas/tema_1/img_4.png', class="img-fluid")
           .col-12.col-lg-10(data-aos='zoom-in-right')
             .tarjeta.color-acento-contenido-5.p-4.rounded-0.mb-0
-               p.mb-0 Su cumplimiento es crucial no solo para la legalidad de la operación, sino también para la seguridad pública y la integridad de la carga. En un sistema de monitoreo, la geocercas se utiliza comúnmente para asegurar que los vehículos se mantengan dentro de estos recorridos autorizados.
+               p.mb-0 Su cumplimiento es crucial no solo para la legalidad de la operación, sino también para la seguridad pública y la integridad de la carga. En un sistema de monitoreo, la geocerca se utiliza comúnmente para asegurar que los vehículos se mantengan dentro de estos recorridos autorizados.
       .col-8.col-lg-3.order-1.order-lg-2.mb-3.mb-lg-0(data-aos='zoom-in-right')
         figure
           img(src='@/assets/curso/temas/tema_1/img_5.png', class="img-fluid")

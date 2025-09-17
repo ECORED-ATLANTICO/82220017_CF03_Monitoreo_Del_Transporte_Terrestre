@@ -487,9 +487,9 @@ export default {
         },
       ],
       mensaje_final_aprobado:
-        '¡Excelente! Te felicito, ha superado la actividad y demuestra sólidos conocimientos sobre el componente formativo.',
+        '¡Excelente! Felicitaciones, ha superado la actividad y demuestra sólidos conocimientos sobre el componente formativo.',
       mensaje_final_reprobado:
-        'No ha superado la actividad. Pero podemos mejorar nuestras respuestas, te invitamos a revisar el componente formativo.',
+        'No ha superado la actividad. Pero podemos mejorar nuestras respuestas, le invitamos a revisar el componente formativo.',
     },
   }),
 }
