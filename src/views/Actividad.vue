@@ -20,7 +20,7 @@ export default {
       tema: 'Desafío de la ruta óptima: monitoreo en acción',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> se fundamenta en capacitar a los participantes en la forma práctica de los sistemas de control y monitoreo en tiempo real, con el fin de desarrollar habilidades para optimizar la eficiencia operativa y la competencia en la práctica del transporte inteligente. A través del uso de plataformas de simulación y análisis de datos críticos que permiten la ubicación vehicular, las desviaciones de rutas y comportamiento de conducción (velocidad, frenado entre otros aspectos, los participantes aprenderán a identificar proactivamente los problemas y tomas decisiones estratégicas que aseguren el cumplimiento de los objetivos de servicio y la maximización de la rentabilidad en un entorno dinámico.',
+        '<b> Objetivo:</b> se fundamenta en capacitar a los participantes en la forma práctica de los sistemas de control y monitoreo en tiempo real, con el fin de desarrollar habilidades para optimizar la eficiencia operativa y la competencia en la práctica del transporte inteligente. A través del uso de plataformas de simulación y análisis de datos críticos que permiten la ubicación vehicular, las desviaciones de rutas y comportamiento de conducción (velocidad, frenado entre otros aspectos), los participantes aprenderán a identificar proactivamente los problemas y tomas decisiones estratégicas que aseguren el cumplimiento de los objetivos de servicio y la maximización de la rentabilidad en un entorno dinámico.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!.',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
