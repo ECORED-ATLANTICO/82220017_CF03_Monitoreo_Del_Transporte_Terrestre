@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Plan de la operación del transporte terrestre
+      h1 Plan de operación del transporte terrestre
 
     .row.justify-content-center.align-items-center
       .col-12.col-lg-4.mb-lg-0.mb-3(data-aos="zoom-in-right")
@@ -112,8 +112,8 @@
           h5 Figura 1.
           |    Planificación de frecuencias y horarios
         figure(data-aos="zoom-in-right")
-          img(src='@/assets/curso/temas/tema_1/img_12.svg', class="img-fluid d-none d-lg-block mb-3" alt="En la figura 1 se ilustra el esquema de planificación de frecuencias y horarios, herramienta para lograr la precisión y optimizar viajes y entregas. Sus componentes son:· Utilización de la flota y la fuerza laboral. · Minimización de costos. · Satisfacción del cliente. · Sincronización de la cadena de suministro. · Gestión de la congestión.")
-          img(src='@/assets/curso/temas/tema_1/img_13.svg', class="img-fluid d-block d-lg-none mb-3" alt="En la figura 1 se ilustra el esquema de planificación de frecuencias y horarios, herramienta para lograr la precisión y optimizar viajes y entregas. Sus componentes son:· Utilización de la flota y la fuerza laboral. · Minimización de costos. · Satisfacción del cliente. · Sincronización de la cadena de suministro. · Gestión de la congestión.")
+          img(src='@/assets/curso/temas/tema_1/img_12.svg', class="img-fluid d-none d-lg-block mb-3" alt="En la figura 1 se ilustra el esquema de planificación de frecuencias y horarios, herramienta para lograr la precisión y optimizar viajes y entregas. Sus componentes son: utilización de la flota y la fuerza laboral, minimización de costos, satisfacción del cliente, sincronización de la cadena de suministro y gestión de la congestión.")
+          img(src='@/assets/curso/temas/tema_1/img_13.svg', class="img-fluid d-block d-lg-none mb-3" alt="En la figura 1 se ilustra el esquema de planificación de frecuencias y horarios, herramienta para lograr la precisión y optimizar viajes y entregas. Sus componentes son: utilización de la flota y la fuerza laboral, minimización de costos, satisfacción del cliente, sincronización de la cadena de suministro y gestión de la congestión.")
           figcaption(data-aos="zoom-in-right") <b>Fuente:</b> SENA, 2025.
      
 

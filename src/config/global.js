@@ -32,7 +32,7 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Plan de la operación del transporte terrestre',
+        titulo: 'Plan de operación del transporte terrestre',
         desarrolloContenidos: true,
         subMenu: [
           {

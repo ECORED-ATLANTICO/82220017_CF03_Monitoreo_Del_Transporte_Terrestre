@@ -148,10 +148,11 @@
           .row.justify-content-center.align-items-center
             .col-12.col-lg-6.order-2.order-lg-1.mb-0
               h5 Análisis predictivo y prescriptivo
-              p.mb-3 <B>• Sistemas de planificación de rutas <i>(RPS)</i>:</B> retroalimentación para optimizar rutas futuras basándose en datos reales de tráfico y tiempos de entrega.
-              p.mb-3 <B>• Sistemas de gestión de almacenes <i>(WMS)</i>:</B> coordinación de la llegada de vehículos y la disponibilidad de carga / descarga.
-              p.mb-3 <B>• Sistemas de gestión de flota <i>(FMS)</i>:</B> integración de datos de mantenimiento, consumo y rendimiento para una gestión integral.
-              p.mb-0 <B>• Sistemas <i>ERP/TMS</i>:</B> centralización de la información logística y financiera para una visión unificada de la cadena de suministro.
+              p.mb-3 <B>• Datos históricos:</B> registros de rutas, tiempos de viaje, consumo de combustible, mantenimientos, incidentes de tránsito.
+              p.mb-3 <B>• Datos en tiempo real:</B> información de GPS, sensores de vehículos, tráfico, clima, estado de carreteras.
+              p.mb-3 <B>• Modelos estadísticos y algoritmos:</B> regresiones, series de tiempo, para proyectar tendencias.
+              p.mb-3 <B>• Patrones y tendencias:</B> identificar comportamientos repetitivos.
+              p.mb-0 <B>• Proyecciones y escenarios:</B> resultados sobre qué es probable que ocurra (fallas, congestión). 
             .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
               figure
                 img(src='@/assets/curso/temas/tema_2/img_9.png', class="img-fluid")
