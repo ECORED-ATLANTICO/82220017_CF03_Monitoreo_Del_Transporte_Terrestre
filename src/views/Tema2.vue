@@ -33,30 +33,20 @@
       
       .row.justify-content-center.align-items-center.mb-sm-0.mb-5
         .col-12.col-lg-10.mb-sm-3.mb-5
-          .gps-infografia-container
-            .infografia-wrapper
-              .imagen-container
+          .gps-infografia-container.tarjeta--fondo-infografia.p-5
+            .row.justify-content-center.align-items-center.mb-0
+              .col-12.col-lg-6.order-2.order-lg-1.mb-lg-0.mb-0
                 input#infografia-punto-1.d-none(type="radio" name="infografia-puntos" checked)
                 input#infografia-punto-2.d-none(type="radio" name="infografia-puntos")
                 input#infografia-punto-3.d-none(type="radio" name="infografia-puntos")
                 input#infografia-punto-4.d-none(type="radio" name="infografia-puntos")
                 input#infografia-punto-5.d-none(type="radio" name="infografia-puntos")
-                label.punto-info(for="infografia-punto-1" style="top: 10%; left: 68.8%;")
-                  .punto-numero 
-                label.punto-info(for="infografia-punto-2" style="top: 26.9%; left: 68.8%;")
-                  .punto-numero 
-                label.punto-info(for="infografia-punto-3" style="top: 43.9%; left: 68.8%;")
-                  .punto-numero 
-                label.punto-info(for="infografia-punto-4" style="top: 60.9%; left: 68.8%;")
-                  .punto-numero 
-                label.punto-info(for="infografia-punto-5" style="top: 77.9%; left: 68.8%;")
-                  .punto-numero 
                 .info-cards-container.mb-3
                   .info-card(data-card="1")
                     .card-header
                       h5.mb-0 Datos de posición y trayectoria (<i>GPS / GNSS</i>)
                     .card-content.text-small
-                      p.mb-0.mt-5 <B>Coordenadas geográficas:</B> latitud, longitud y altitud para una ubicación precisa.
+                      p.mb-0.mt-3 <B>Coordenadas geográficas:</B> latitud, longitud y altitud para una ubicación precisa.
                       p.mb-0 <B>Velocidad y dirección:</B> crucial para el análisis de rutas, tiempos de llegada estimados <I>(ETA)</I> y detección de desviaciones.
                       p.mb-0 <B>Historial de rutas:</B> permite la auditoría de trayectorias, identificación de puntos de interés <I>(POI)</I> y análisis de cumplimiento de rutas planificadas.
                       p.mb-0 <B>Geocercas:</B> datos sobre entradas y salidas de zonas predefinidas (patios, almacenes, áreas de entrega), activando alertas automáticas.
@@ -85,7 +75,7 @@
                     .card-header
                       h5.mb-0 Datos de carga
                     .card-content
-                      p.mb-0.mt-3 <B>Peso de la carga:</B> monitoreo de la tara y el peso bruto para evitar sobrecargas y optimizar la capacidad.
+                      p.mb-0.mt-2 <B>Peso de la carga:</B> monitoreo de la tara y el peso bruto para evitar sobrecargas y optimizar la capacidad.
                       p.mb-0 <B>Estado de la carga:</B> información sobre el estado de bienes específicos.
                     .numero-circulo 4
                   .info-card(data-card="5")
@@ -96,10 +86,20 @@
                       p.mb-0 <B>Condiciones climáticas:</B> impacto en la seguridad y los tiempos de entrega.
                       p.mb-0 <B>Información de pedidos y entregas:</B> sincronización con sistemas de gestión de pedidos <I>(OMS)</I> y planificación de rutas para tener una visión completa de cada envío.
                     .numero-circulo 5
-                picture
-                  source(media="(max-width: 769px)", :srcset="require('@/assets/curso/temas/tema_2/img_4.svg')")
-                  img.imagen-principal(:src="require('@/assets/curso/temas/tema_2/img_3.svg')", class="img-fluid")
-
+              .col-12.col-lg-6.order-1.order-lg-2.mb-lg-0.mb-0
+                figure
+                  label.punto-info(for="infografia-punto-1" style="top: 8%; left: 42.7%;")
+                    .punto-numero 
+                  label.punto-info(for="infografia-punto-2" style="top: 24.5%; left: 42.7%;")
+                    .punto-numero 
+                  label.punto-info(for="infografia-punto-3" style="top: 41.9%; left: 42.7%;")
+                    .punto-numero 
+                  label.punto-info(for="infografia-punto-4" style="top: 58.9%; left: 42.7%;")
+                    .punto-numero 
+                  label.punto-info(for="infografia-punto-5" style="top: 75.7%; left: 42.7%;")
+                    .punto-numero 
+                  img(src='@/assets/curso/temas/tema_2/img_3.svg', class="img-fluid d-none d-lg-block mb-0")
+                  img(src='@/assets/curso/temas/tema_2/img_4.svg', class="img-fluid d-block d-lg-none mb-0")
     
     .bg_img_4.mb-3
 
@@ -156,7 +156,7 @@
             .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
               figure
                 img(src='@/assets/curso/temas/tema_2/img_9.png', class="img-fluid")
-          
+    .mb-5
 </template>
 
 <script>
