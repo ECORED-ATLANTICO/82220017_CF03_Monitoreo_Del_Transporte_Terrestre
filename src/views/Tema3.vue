@@ -245,7 +245,7 @@
           .col-12.col-lg-6.order-2.order-lg-1.mb-0
             h5 Ciberseguridad y protección de datos
             p.mb-3 <B>Riesgos y amenazas:</B> concienciar sobre los riesgos de ciberseguridad asociados a los sistemas de monitoreo (ataques a la red, acceso no autorizado a datos).
-            p.mb-0 <B>Medidas de protección:</B> proponer medidas de seguridad sistemáticas como encriptación de datos, autenticación multifactor, copias de seguridad.
+            p.mb-0 <B>Medidas de protección:</B> proponer medidas de seguridad sistemáticas como encriptación de datos, autenticación multifactor, copias de seguridad regulares y planes de recuperación ante desastres para proteger la información sensible.
           .col-12.col-lg-5.order-1.order-lg-2.mb-lg-0.mb-3
             figure
               img(src='@/assets/curso/temas/tema_3/img_26.png', class="img-fluid")
