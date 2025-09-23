@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[ https://ecored-atlantico.github.io/82220017_CF03_Monitoreo_Del_Transporte_Terrestre/]( https://ecored-atlantico.github.io/82220017_CF03_Monitoreo_Del_Transporte_Terrestre/)
+[https://ecored-atlantico.github.io/82220017_CF03_MONITOREO_DEL_TRANSPORTE_TERRESTR](https://ecored-atlantico.github.io/82220017_CF03_MONITOREO_DEL_TRANSPORTE_TERRESTR)
 
 #
 
